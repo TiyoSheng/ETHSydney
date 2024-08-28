@@ -25,15 +25,15 @@ onMounted(() => {
   line-height: 24px;
   letter-spacing: 0em;
   color: #FFFFFF;
-  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
   .ft {
-    height: 20px;
-    font-size: 5.91px;
+    height: .4rem;
+    font-size: .12rem;
     font-weight: normal;
-    line-height: 9.38px;
+    line-height: .19rem;
     text-align: center;
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
 </style>

@@ -47,14 +47,14 @@ import { ref } from 'vue'
     background-image: url('../assets/images/m_05.png');
     .list {
       flex-direction: column;
-      margin-top: 24px;
+      margin-top: .48rem;
       padding-bottom: 0;
       .item {
-        width: 132.8px;
-        height: 37.5px;
+        width: 2.64rem;
+        height: .75rem;
         border: 1px solid #525252;
         img {
-          width: 58px;
+          width: 1.16rem;
         }
       }
     }

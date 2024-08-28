@@ -139,35 +139,35 @@ onBeforeUnmount(() => {
 
 @media screen and (max-width: 768px) {
   .nav {
-    height: 42px;
+    height: .84rem;
     background: linear-gradient(329deg, rgba(0, 0, 0, 0) -9%, rgba(0, 0, 0, 0.8) 87%);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(.2rem);
 
     .nav-content {
       .logo {
         img {
-          width: 22px;
+          width: .44rem;
           height: auto;
         }
 
         span {
-          font-size: 12.43px;
+          font-size: .25rem;
           font-weight: bold;
-          line-height: 15.53px;
-          margin-left: 9px;
+          line-height: .31rem;
+          margin-left: .18rem;
         }
       }
 
       .menu-icon {
         img {
-          width: 24px;
-          height: 24px;
+          width: .48rem;
+          height: .48rem;
         }
       }
 
       .nav-list {
         position: absolute;
-        top: 42px;
+        top: .84rem;
         width: 100%;
         left: 0;
         flex-direction: column;
@@ -176,11 +176,11 @@ onBeforeUnmount(() => {
         box-sizing: border-box;
         border: 0.5px solid;
         border-image: linear-gradient(342deg, #FFFFFF 1%, rgba(255, 255, 255, 0) 84%) 0.5;
-        padding: 0 18px;
+        padding: 0 .36rem;
         backdrop-filter: blur(10px);
 
         .nav-item {
-          height: 60px;
+          height: 1.2rem;
           box-sizing: border-box;
           border-width: 0px 0px 0.78px 0px;
           border-style: solid;

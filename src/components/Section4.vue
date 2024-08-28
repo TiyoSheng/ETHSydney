@@ -116,24 +116,24 @@ const list = [
   .section-content {
     background-image: url('../assets/images/m_04.png');
     .list {
-      gap: 28px;
-      margin-top: 32px;
-      padding: 0 30px;
+      gap: .56rem;
+      margin-top: .64rem;
+      padding: 0 .6rem;
       box-sizing: border-box;
       .item {
-        margin-bottom: -10px;
+        margin-bottom: -.2rem;
         .avatar {
-          width: 86px;
+          width: 1.72rem;
           height: auto;
         }
         .name {
-          font-size: 7.03px;
-          line-height: 10.94px;
-          margin-top: -7px;
+          font-size: .14rem;
+          line-height: .22rem;
+          margin-top: -.14rem;
         }
         .role {
-          font-size: 6.25px;
-          line-height: 9.38px;
+          font-size: .13rem;
+          line-height: .19rem;
         }
       }
     }

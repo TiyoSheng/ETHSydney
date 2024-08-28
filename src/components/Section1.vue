@@ -187,16 +187,16 @@ const activeTab = ref(1)
 
     .tabs {
       flex-wrap: wrap;
-      gap: 6px;
-      padding: 0 28px;
-      margin-top: 24px;
+      gap: .12rem;
+      padding: 0 .56rem;
+      margin-top: .48rem;
 
       .tab {
         width: auto;
         flex: 1;
-        min-width: 150px;
-        height: 30px;
-        border-radius: 6px;
+        min-width: 3rem;
+        height: .6rem;
+        border-radius: .12rem;
         border: 1px solid #000000;
 
         &.active {
@@ -205,28 +205,28 @@ const activeTab = ref(1)
         }
 
         p {
-          font-size: 9.4px;
+          font-size: .19rem;
         }
       }
     }
 
     .list {
-      margin-top: 14px;
-      padding: 0 28px;
-      gap: 5px;
+      margin-top: .28rem;
+      padding: 0 .56rem;
+      gap: .1rem;
 
       .item {
-        height: 34px;
+        height: .68rem;
         border-radius: 4px;
-        padding: 0 16px;
+        padding: 0 .32rem;
         border: 1px solid #000000;
 
         p {
-          font-size: 10px;
+          font-size: .2rem;
 
           &:first-child {
-            flex: 0 0 66px;
-            width: 66px;
+            flex: 0 0 1.32rem;
+            width: 1.32rem;
           }
         }
       }

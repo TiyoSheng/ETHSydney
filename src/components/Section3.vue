@@ -48,21 +48,21 @@ import { ref } from 'vue'
   .section-content {
     background-image: url('../assets/images/m_03.png');
     .metaspace {
-      margin-top: 24px;
+      margin-top: .48rem;
       img {
-        width: 156px;
-        height: 156px;
+        width: 3.12rem;
+        height: 3.12rem;
       }
     }
     .title-p {
-      font-size: 10.94px;
-      line-height: 15.63px;
-      margin-top: 38.28px;
+      font-size: .22rem;
+      line-height: .31rem;
+      margin-top: .77rem;
     }
     .subtitle {
-      font-size: 6.25px;
-      line-height: 11.25px;
-      margin-top: 6.5px;
+      font-size: .13rem;
+      line-height: .23rem;
+      margin-top: .13rem;
     }
   }
   

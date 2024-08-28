@@ -102,31 +102,31 @@ const activeIndex = ref([])
   .section-content {
     background-image: url('../assets/images/m_06.png');
     .list {
-      padding: 0 28px;
+      padding: 0 .56rem;
       box-sizing: border-box;
-      margin-top: 19px;
+      margin-top: .38rem;
 
       .item {
 
         .question-wrap {
-          height: 38px;
+          height: .76rem;
         }
 
         .question {
-          font-size: 9.01px;
-          line-height: 12.5px;
+          font-size: .18rem;
+          line-height: .25rem;
         }
 
         .arrow {
-          width: 10px;
-          height: 10px;
+          width: .2rem;
+          height: .2rem;
         }
 
         .answer {
           p {
-            padding: 0 0 8px 0;
-            font-size: 7.03px;
-            line-height: 10.94px;
+            padding: 0 0 .16rem 0;
+            font-size: .14rem;
+            line-height: .22rem;
           }
         }
       }

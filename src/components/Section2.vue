@@ -122,35 +122,35 @@ import { ref } from 'vue'
     background-image: url('../assets/images/m_02.png');
 
     .list {
-      gap: 16px;
-      padding: 0 28px;
-      margin-top: 24px;
+      gap: .32rem;
+      padding: 0 .56rem;
+      margin-top: .48rem;
       .item {
         width: 100%;
         .icon {
-          width: 10px;
-          height: 10px;
+          width: .2rem;
+          height: .2rem;
         }
         .item-track {
-          font-size: 10px;
-          line-height: 12px;
-          padding-left: 4px;
-          width: 60px;
+          font-size: .2rem;
+          line-height: .24rem;
+          padding-left: .08rem;
+          width: 1.2rem;
         }
         .item-box {
           height: auto;
           width: 100%;
-          padding: 12px 16px;
-          gap: 6px;
+          padding: .24rem .32rem;
+          gap: .12rem;
           flex: 1;
           border: 1px solid #525252;
           .item-title {
-            font-size: 10px;
-            line-height: 14px;
+            font-size: .2rem;
+            line-height: .28rem;
           }
           .item-content {
-            font-size: 9px;
-            line-height: 9.4px;
+            font-size: .18rem;
+            line-height: .19rem;
           }
         }
       }

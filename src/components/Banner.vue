@@ -77,19 +77,19 @@ onMounted(() => {
 @media screen and (max-width: 768px) {
   .banner {
     .banner-bg {
-      margin-top: -44px;
+      margin-top: -.88rem;
     }
     .banner-content {
       // position: static;
       top: 0;
       height: calc(100%);
-      padding-top: 117px;
+      padding-top: 3rem;
       h1 {
-        font-size: 24px;
+        font-size: .48rem;
       }
       p {
-        font-size: 10px;
-        margin-top: 18px;
+        font-size: .2rem;
+        margin-top: .36rem;
       }
     }
   }
