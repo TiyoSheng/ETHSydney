@@ -54,7 +54,7 @@ const list = [
 <template>
   <div class="section">
     <div class="section-content">
-      <img src="../assets/images/title4.svg" alt="venue" class="title">
+      <img src="../assets/images/title4.png" alt="venue" class="title">
       <div class="list">
         <div v-for="item in list" class="item">
           <img :src="item.avatar" alt="" class="avatar">
@@ -114,6 +114,7 @@ const list = [
 }
 @media screen and (max-width: 768px) {
   .section-content {
+    background-image: url('../assets/images/m_04.png');
     .list {
       gap: 28px;
       margin-top: 32px;

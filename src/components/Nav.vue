@@ -40,7 +40,7 @@ onBeforeUnmount(() => {
       </div>
       <div class="nav-list" v-if="isMobile ? showMenu : true">
         <div class="nav-item"><a href="https://lu.ma/" target="_blank">Enrol</a></div>
-        <div class="nav-item"><a href="https://lu.ma/" target="_blank">Discord</a></div>
+        <div class="nav-item"><a href="#" target="_blank">Discord</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section1' }" @click="menuClick('#section1')">
           <router-link to="#section1">Schedule</router-link>
         </div>

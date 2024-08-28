@@ -91,7 +91,7 @@ const activeTab = ref(1)
 <template>
   <div class="section">
     <div class="section-content">
-      <img src="../assets/images/title1.svg" alt="schedule" class="title">
+      <img src="../assets/images/title1.png" alt="schedule" class="title">
       <div class="tabs flex-center-center">
         <div v-for="(tab, index) in tabs" :key="tab.id" class="tab flex-center-center"
           :class="{ active: activeTab == index }" @click="activeTab = index">
@@ -183,6 +183,7 @@ const activeTab = ref(1)
 @media screen and (max-width: 768px) {
   .section-content {
     min-height: 0;
+    background-image: url('../assets/images/m_01.png');
 
     .tabs {
       flex-wrap: wrap;

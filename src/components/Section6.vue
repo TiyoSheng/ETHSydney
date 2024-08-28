@@ -19,7 +19,7 @@ const activeIndex = ref([])
 <template>
   <div class="section">
     <div class="section-content">
-      <img src="../assets/images/title6.svg" alt="venue" class="title">
+      <img src="../assets/images/title6.png" alt="venue" class="title">
       <div class="list flex-center-center">
         <div class="item" v-for="item in question" :key="item.id"
           @click="activeIndex.indexOf(item.id) === -1 ? activeIndex.push(item.id) : activeIndex.splice(activeIndex.indexOf(item.id), 1)">
@@ -100,6 +100,7 @@ const activeIndex = ref([])
 
 @media screen and (max-width: 768px) {
   .section-content {
+    background-image: url('../assets/images/m_06.png');
     .list {
       padding: 0 28px;
       box-sizing: border-box;

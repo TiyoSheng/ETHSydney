@@ -6,7 +6,7 @@ import { ref } from 'vue'
 <template>
   <div class="section">
     <div class="section-content" >
-      <img src="../assets/images/title7.svg" alt="venue" class="title">
+      <img src="../assets/images/title7.png" alt="venue" class="title">
       <div class="list flex-center-center">
         <div class="item flex-center-center">
           <img src="../assets/supporters/pku.png" alt="">
@@ -72,6 +72,7 @@ import { ref } from 'vue'
 }
 @media screen and (max-width: 768px) {
   .section-content {
+    background-image: url('../assets/images/m_07.png');
     .list {
       margin-top: 32px;
       padding-bottom: 0;
