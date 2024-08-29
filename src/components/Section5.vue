@@ -12,11 +12,11 @@ import { ref } from 'vue'
           <img src="../assets/images/eco.png" alt="">
         </div>
         <div class="item flex-center-center">
-          <img src="../assets/images/scroll.png" alt="">
+          <img src="../assets/images/unsw.png" alt="">
         </div>
-        <div class="item flex-center-center">
+        <!-- <div class="item flex-center-center">
           <img src="../assets/images/galxe.png" alt="">
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

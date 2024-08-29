@@ -56,7 +56,7 @@ const list = [
     <div class="section-content">
       <img src="../assets/images/title4.png" alt="venue" class="title">
       <div class="list">
-        <div v-for="item in list" class="item">
+        <div v-for="item in []" class="item">
           <img :src="item.avatar" alt="" class="avatar">
           <p class="name">{{ item.name }}</p>
           <p class="role">{{ item.role }}</p>

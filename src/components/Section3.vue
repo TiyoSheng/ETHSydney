@@ -1,17 +1,21 @@
 
 <script setup>
 import { ref } from 'vue'
+
+const openMap = () => {
+  window.open('https://goo.gl/maps/M4MRRC4HZt7TLst36 ', '_blank')
+}
 </script>
 
 <template>
   <div class="section">
     <div class="section-content" >
       <img src="../assets/images/title3.png" alt="venue" class="title">
-      <div class="metaspace">
+      <div class="metaspace" @click="openMap">
         <img src="../assets/images/metaspace.png" alt="metaspace">
       </div>
-      <p class="title-p">META SPACE (751 Branch)</p>
-      <p class="subtitle">L Building, 751D Park, 798 District, Chaoyang District, Beijing.</p>
+      <p class="title-p">UNSW Founders</p>
+      <p class="subtitle">Michael Crouch Innovation Centre - UNSW Kensington Entre via Gate 2 Avenue, Kensington, NSW 2033</p>
     </div>
   </div>
 </template>
@@ -23,6 +27,7 @@ import { ref } from 'vue'
     img {
       width: 400px;
       height: 400px;
+      cursor: pointer;
     }
   }
   .title-p {

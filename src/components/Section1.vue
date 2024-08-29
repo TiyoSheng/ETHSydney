@@ -2,7 +2,18 @@
 import { ref } from 'vue'
 
 const tabs = ref([
-  { id: 1, title: 'Warm up', list: [] },
+  {
+    id: 1, title: 'Warm up', list: [{
+      time: '13 August',
+      title: '<a href="https://lu.ma/42iq2h0p" target="_blank">Get started with developing in Ethereum 101</a>'
+    }, {
+      time: '24 September',
+      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 102</a>'
+    }, {
+      time: '15 October',
+      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 103</a>'
+    }]
+  },
   {
     id: 2, title: 'Day 1 - 25 October', list: [{
       time: '02:00 PM',
@@ -29,7 +40,7 @@ const tabs = ref([
       time: '07:00 PM',
       title: 'Hacking',
     }, {
-      time: '10:00 PM',
+      time: '09:00 PM',
       title: 'Close (TBD)',
     }]
   },
@@ -56,7 +67,7 @@ const tabs = ref([
       "time": "06:30 PM",
       "title": "Dinner"
     }, {
-      "time": "10:00 PM",
+      "time": "09:00 PM",
       "title": "Close (TBD)"
     }]
   },
@@ -101,7 +112,7 @@ const activeTab = ref(1)
       <div class="list flex-center-center">
         <div v-for="item in tabs[activeTab].list" :key="item.time" class="item">
           <p class="time flex-center-start">{{ item.time }}</p>
-          <p class="title flex-center-start">{{ item.title }}</p>
+          <p class="title flex-center-start" v-html="item.title"></p>
         </div>
       </div>
     </div>
@@ -218,19 +229,28 @@ const activeTab = ref(1)
       .item {
         height: .68rem;
         border-radius: 4px;
-        padding: 0 .32rem;
+        padding: 0 .24rem;
         border: 1px solid #000000;
 
         p {
           font-size: .2rem;
 
           &:first-child {
-            flex: 0 0 1.32rem;
+            flex: 0 0 1.5rem;
             width: 1.32rem;
           }
         }
       }
     }
+  }
+}
+</style>
+<style lang="scss">
+.list {
+  a {
+    color: #0069c2;
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
 </style>

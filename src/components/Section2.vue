@@ -9,9 +9,9 @@ import { ref } from 'vue'
       <div class="list flex-center-center">
         <div class="item flex-center-start">
           <img src="../assets/images/ethIcon.svg" alt="" class="icon">
-          <div class="item-track">Track 1</div>
+          <div class="item-track">General Track</div>
           <div class="item-box flex-start-center">
-            <p class="item-title">Ethereum Main track (Make Ethereum cyberpunk again)</p>
+            <p class="item-title">Making Ethereum Cypherpunk Again</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
               Build open-source projects on Ethereum</p>
@@ -19,9 +19,9 @@ import { ref } from 'vue'
         </div>
         <div class="item flex-center-start">
           <img src="../assets/images/ethIcon.svg" alt="" class="icon">
-          <div class="item-track">Track 2</div>
+          <div class="item-track">Youth Innovators Track</div>
           <div class="item-box flex-start-center">
-            <p class="item-title">DeSci track</p>
+            <p class="item-title">Exclusively for young minds ready to push the boundaries of creativity and technology.</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
               Build open-source projects on Ethereum</p>

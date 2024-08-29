@@ -39,13 +39,13 @@ onBeforeUnmount(() => {
         <img v-if="showMenu" src="../assets/images/close.svg" alt="menu">
       </div>
       <div class="nav-list" v-if="isMobile ? showMenu : true">
-        <div class="nav-item"><a href="https://lu.ma/" target="_blank">Enrol</a></div>
-        <div class="nav-item"><a href="#" target="_blank">Discord</a></div>
+        <div class="nav-item"><a href="https://lu.ma/ETHsydney" target="_blank">Enrol</a></div>
+        <div class="nav-item"><a href="https://t.me/EthereumSydney" target="_blank">Telegram</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section1' }" @click="menuClick('#section1')">
           <router-link to="#section1">Schedule</router-link>
         </div>
-        <div class="nav-item">
-          <a href="https://www.ethbeijing.xyz/#venue" target="_blank">Venue</a>
+        <div class="nav-item" :class="{ active: activeHash === '#section3' }" @click="menuClick('#section3')">
+          <router-link to="#section3">Venue</router-link>
         </div>
         <div class="nav-item" :class="{ active: activeHash === '#section2' }" @click="menuClick('#section2')">
           <router-link to="#section2">Track</router-link>
@@ -53,8 +53,8 @@ onBeforeUnmount(() => {
         <div class="nav-item">
           <a href="https://ethglobal.com/events/singapore2024#speakers" target="_blank">Mentor & Judge</a>
         </div>
-        <div class="nav-item">
-          <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank">Sponsor</a>
+        <div class="nav-item" :class="{ active: activeHash === '#section5' }" @click="menuClick('#section5')">
+          <router-link to="#section5">Sponsor</router-link>
         </div>
         <div class="nav-item" :class="{ active: activeHash === '#section6' }" @click="menuClick('#section6')">
           <router-link to="#section6">FAQ</router-link>
