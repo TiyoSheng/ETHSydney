@@ -1,60 +1,71 @@
 <script setup>
 import { ref } from 'vue'
+import Border from '../assets/images/Border.png'
+import Border2 from '../assets/images/Border-2.png'
+import Border3 from '../assets/images/Border-3.png'
+import Border4 from '../assets/images/Border-4.png'
+import Border5 from '../assets/images/Border-5.png'
+import Border6 from '../assets/images/Border-6.png'
+import Border7 from '../assets/images/Border-7.png'
+import Border8 from '../assets/images/Border-8.png'
+import Border9 from '../assets/images/Border-9.png'
+import Border10 from '../assets/images/Border-10.png'
+import Border11 from '../assets/images/Border-11.png'
 
 const list = [
   {
     "ProjectName": "zkSync",
-    "Logo": "https://miro.medium.com/v2/resize:fit:971/1*w_5npXegHQq5zql15ol3bQ.png",
+    "Logo": Border,
     "Link": "https://zksync.io/"
   },
   {
     "ProjectName": "Sigma Prime",
-    "Logo": "https://cdn.prod.website-files.com/659ddeb7f63ce6a1f7898526/65baa856cf5e4c8a4f044cba_TmKY71FDEPoQOIMurapzERHPVc.png",
+    "Logo": Border2,
     "Link": "https://sigmaprime.io/"
   },
   {
     "ProjectName": "Argent Wallet",
-    "Logo": "https://logowik.com/content/uploads/images/argent-wallet3696.logowik.com.webp",
+    "Logo": Border3,
     "Link": "https://www.argent.xyz/"
   },
   {
     "ProjectName": "Aleph",
-    "Logo": "https://cdn.prod.website-files.com/63aac47990b0ca2923e2ca96/6487b03402be7309da9f876c_Aleph.png",
+    "Logo": Border4,
     "Link": "https://aleph.im/"
   },
   {
     "ProjectName": "SubQuery",
-    "Logo": "https://blog.subquery.network/content/images/2023/03/logo-1.png",
+    "Logo": Border5,
     "Link": "https://subquery.network/"
   },
   {
     "ProjectName": "Immutable",
-    "Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp2XgV8ViAX-CyiUqKIpyEb-7jDqqQTWIcHA&s",
+    "Logo": Border6,
     "Link": "https://www.immutable.com/"
   },
   {
     "ProjectName": "HaymarketHQ",
-    "Logo": "https://cdn.prod.website-files.com/638051c17c0754311a2926d4/6380546f2907b162378e79cf_HHQ%20Logo_Frames_Colour_SMALL.webp",
+    "Logo": Border7,
     "Link": "https://www.haymarkethq.com/"
   },
   {
     "ProjectName": "Google Cloud",
-    "Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BogQa-bVz7E1pqETsf7eQORJhm9JoOt3Xw&s",
+    "Logo": Border8,
     "Link": "https://cloud.google.com/"
   },
   {
     "ProjectName": "Bitfwd Capital",
-    "Logo": "https://pbs.twimg.com/profile_images/1518014599328526336/UELzWy9c_400x400.jpg",
+    "Logo": Border9,
     "Link": "https://www.bitfwd.com/"
   },
   {
     "ProjectName": "Smart Token Labs",
-    "Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNsFBSQX31HdXlCmae223AhqlfsL77LFBQHw&s",
+    "Logo": Border10,
     "Link": "https://smarttokenlabs.com/"
   },
   {
     "ProjectName": "ScalingX",
-    "Logo": "https://miro.medium.com/v2/resize:fit:2400/1*pJCuWHVk61GuuUbRiSNkDg.jpeg",
+    "Logo": Border11,
     "Link": "https://www.scalingx.xyz/"
   }
 ]
@@ -86,21 +97,18 @@ const open = (link) => {
     margin: auto;
     padding-bottom: 44px;
     margin-top: 80px;
-    max-width: 800px;
+    max-width: 880px;
     flex-wrap: wrap;
 
     .item {
-      width: 180px;
-      height: 172px;
-      border-radius: 10px;
       background: #FFFFFF;
       box-sizing: border-box;
       border: 2px solid #525252;
       margin-bottom: 20px;
 
       img {
-        width: 138px;
-        height: auto;
+        width: auto;
+        height: 80px;
       }
     }
   }
@@ -117,12 +125,14 @@ const open = (link) => {
       box-sizing: border-box;
 
       .item {
-        width: 1.36rem;
-        height: 1.34rem;
+        // width: 1.36rem;
+        // height: 1.34rem;
         border: 1px solid #525252;
+        margin-bottom: 0;
 
         img {
-          width: 1.08rem;
+          width: auto;
+          height: .7rem;
         }
       }
     }
