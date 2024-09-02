@@ -15,7 +15,7 @@ onMounted(() => {
     <img v-if="isMobile" class="banner-bg" src="../assets/images/m_banner.png" alt="ETHSydney banner" />
     <div class="banner-content">
       <h1>Making <span>Ethereum</span> <br v-if="isMobile" /> Cypherpunk Again</h1>
-      <p>DATE : 25-27 Oct 2024 ｜ Venue :TBD</p>
+      <p>DATE : 25-27 Oct 2024 ｜ UNSW Founders</p>
     </div>
   </div>
 </template>
