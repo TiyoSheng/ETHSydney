@@ -16,8 +16,8 @@ const openMap = () => {
       </div>
       <div class="placeholder"></div>
       <p class="title-p">UNSW Founders</p>
-      <p class="subtitle">Michael Crouch Innovation Centre - UNSW Kensington Entre via Gate 2 Avenue, <br /> Kensington,
-        NSW 2033</p>
+      <a href="https://goo.gl/maps/M4MRRC4HZt7TLst36"><p class="subtitle">Michael Crouch Innovation Centre <br/>UNSW Kensington Entre via Gate 2 Avenue, Kensington,
+        NSW 2033</p></a>
     </div>
   </div>
 </template>
