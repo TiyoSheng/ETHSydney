@@ -53,9 +53,12 @@ onBeforeUnmount(() => {
         <div class="nav-item" :class="{ active: activeHash === '#section4' }" @click="menuClick('#section4')">
           <router-link to="#section4">Speakers & Mentors</router-link>
         </div>
+        <!--
         <div class="nav-item" :class="{ active: activeHash === '#section5' }" @click="menuClick('#section5')">
-          <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf"><router-link to="#section5">Sponsor</router-link></a>
+          <router-link to="#section5">Sponsor</router-link>
         </div>
+        -->
+        <div class="nav-item"><a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank">Sponsor</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section6' }" @click="menuClick('#section6')">
           <router-link to="#section6">FAQ</router-link>
         </div>
