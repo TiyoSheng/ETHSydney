@@ -5,13 +5,13 @@ const tabs = ref([
   {
     id: 1, title: 'Warm up', list: [{
       time: '13 August',
-      title: '<a href="https://lu.ma/42iq2h0p" target="_blank">Get started with developing in Ethereum 101</a>'
+      title: '<a href="https://lu.ma/42iq2h0p" target="_blank">Developing in Ethereum 101</a>'
     }, {
       time: '24 September',
-      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 102</a>'
+      title: '<a href="https://lu.ma/s45y1inm" target="_blank">Developing in Ethereum 102</a>'
     }, {
       time: '15 October',
-      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 103</a>'
+      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Developing in Ethereum 103</a>'
     }]
   },
   {

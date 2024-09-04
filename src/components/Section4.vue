@@ -1,3 +1,4 @@
+<!-- Speakers Mentors Judges -->
 <script setup>
 import { ref } from 'vue'
 import kt from '../assets/avatar/kt.png'
