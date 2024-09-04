@@ -1,3 +1,4 @@
+<!-- Schedule -->
 <script setup>
 import { ref } from 'vue'
 
@@ -41,7 +42,7 @@ const tabs = ref([
       title: 'Hacking',
     }, {
       time: '09:00 PM',
-      title: 'Close (TBD)',
+      title: 'Close',
     }]
   },
   {
@@ -68,7 +69,7 @@ const tabs = ref([
       "title": "Dinner"
     }, {
       "time": "09:00 PM",
-      "title": "Close (TBD)"
+      "title": "Close"
     }]
   },
   {
@@ -91,7 +92,7 @@ const tabs = ref([
       "time": "04:30 PM",
       "title": "Final Announcement"
     }, {
-      "time": "06:00 PM",
+      "time": "07:00 PM",
       "title": "Close"
     }]
   },
