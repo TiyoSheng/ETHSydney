@@ -32,7 +32,7 @@ onBeforeUnmount(() => {
     <div class="nav-content flex-center-sb">
       <div class="logo flex-center-start">
         <a href="https://2024.ethsydney.net/"><img src="../assets/images/logo.png" alt="logo"></a>
-        <span>ETHSydney</span>
+        <a href="https://2024.ethsydney.net/"><span>ETHSydney</span></a>
       </div>
       <div v-if="isMobile" class="menu-icon" @click="showMenu = !showMenu">
         <img v-if="!showMenu" src="../assets/images/menu.svg" alt="menu">
