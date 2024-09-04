@@ -31,8 +31,8 @@ onBeforeUnmount(() => {
   <div class="nav" :class="{ 'show-bg': scrollY > 100 }">
     <div class="nav-content flex-center-sb">
       <div class="logo flex-center-start">
-        <img src="../assets/images/logo.png" alt="logo">
-        <span>ETHSydney</span>
+        <a href="https://2024.ethsydney.net/"><img src="../assets/images/logo.png" alt="logo">
+        <span>ETHSydney</span></a>
       </div>
       <div v-if="isMobile" class="menu-icon" @click="showMenu = !showMenu">
         <img v-if="!showMenu" src="../assets/images/menu.svg" alt="menu">
@@ -44,14 +44,14 @@ onBeforeUnmount(() => {
         <div class="nav-item" :class="{ active: activeHash === '#section1' }" @click="menuClick('#section1')">
           <router-link to="#section1">Schedule</router-link>
         </div>
-        <div class="nav-item" :class="{ active: activeHash === '#section3' }" @click="menuClick('#section3')">
-          <router-link to="#section3">Venue</router-link>
-        </div>
         <div class="nav-item" :class="{ active: activeHash === '#section2' }" @click="menuClick('#section2')">
           <router-link to="#section2">Track</router-link>
         </div>
-        <div class="nav-item">
-          <a href="https://ethglobal.com/events/singapore2024#speakers" target="_blank">Mentor & Judge</a>
+        <div class="nav-item" :class="{ active: activeHash === '#section3' }" @click="menuClick('#section3')">
+          <router-link to="#section3">Venue</router-link>
+        </div>        
+        <div class="nav-item" :class="{ active: activeHash === '#section4' }" @click="menuClick('#section4')">
+          <router-link to="#section4">Speakers & Mentors</router-link>
         </div>
         <div class="nav-item" :class="{ active: activeHash === '#section5' }" @click="menuClick('#section5')">
           <router-link to="#section5">Sponsor</router-link>
