@@ -31,8 +31,8 @@ onBeforeUnmount(() => {
   <div class="nav" :class="{ 'show-bg': scrollY > 100 }">
     <div class="nav-content flex-center-sb">
       <div class="logo flex-center-start">
-        <a href="https://2024.ethsydney.net/"><img src="../assets/images/logo.png" alt="logo">
-        <span>ETHSydney</span></a>
+        <a href="https://2024.ethsydney.net/"><img src="../assets/images/logo.png" alt="logo"></a>
+        <span>ETHSydney</span>
       </div>
       <div v-if="isMobile" class="menu-icon" @click="showMenu = !showMenu">
         <img v-if="!showMenu" src="../assets/images/menu.svg" alt="menu">
