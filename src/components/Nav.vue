@@ -39,7 +39,7 @@ onBeforeUnmount(() => {
         <img v-if="showMenu" src="../assets/images/close.svg" alt="menu">
       </div>
       <div class="nav-list" v-if="isMobile ? showMenu : true">
-        <div class="nav-item"><a href="https://lu.ma/ETHsydney" target="_blank">Enrol</a></div>
+        <div class="nav-item"><a href="https://lu.ma/q5q134u6" target="_blank">Enrol</a></div>
         <div class="nav-item"><a href="https://t.me/EthereumSydney" target="_blank">Telegram</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section1' }" @click="menuClick('#section1')">
           <router-link to="#section1">Schedule</router-link>
