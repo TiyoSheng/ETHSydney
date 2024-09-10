@@ -8,17 +8,12 @@ import { ref } from 'vue'
     <div class="section-content">
       <img src="../assets/images/title5.png" alt="venue" class="title">
       <div class="list flex-center-center">
-        <!--
         <div class="item flex-center-center">
           <img src="../assets/images/eco.png" alt="">
         </div>
-        -->
         <div class="item flex-center-center">
           <img src="../assets/images/unsw.png" alt="">
         </div>
-        <!-- <div class="item flex-center-center">
-          <img src="../assets/images/galxe.png" alt="">
-        </div> -->
       </div>
       <button><a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank"
           rel="noopener noreferrer">Sponsor Us</a></button>
