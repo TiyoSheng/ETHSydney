@@ -1,3 +1,4 @@
+<!-- FAQ -->
 <script setup>
 import { ref } from 'vue'
 const question = ref([

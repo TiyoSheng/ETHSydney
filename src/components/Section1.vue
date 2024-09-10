@@ -1,3 +1,4 @@
+<!-- Schedule -->
 <script setup>
 import { ref } from 'vue'
 
@@ -5,13 +6,13 @@ const tabs = ref([
   {
     id: 1, title: 'Warm up', list: [{
       time: '13 August',
-      title: '<a href="https://lu.ma/42iq2h0p" target="_blank">Get started with developing in Ethereum 101</a>'
+      title: '<a href="https://lu.ma/42iq2h0p" target="_blank">Developing in Ethereum 101</a>'
     }, {
       time: '24 September',
-      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 102</a>'
+      title: '<a href="https://lu.ma/s45y1inm" target="_blank">Developing in Ethereum 102</a>'
     }, {
       time: '15 October',
-      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Get started with developing in Ethereum 103</a>'
+      title: '<a href="https://lu.ma/ETHsydney" target="_blank">Developing in Ethereum 103</a>'
     }]
   },
   {
@@ -41,7 +42,7 @@ const tabs = ref([
       title: 'Hacking',
     }, {
       time: '09:00 PM',
-      title: 'Close (TBD)',
+      title: 'Close',
     }]
   },
   {
@@ -68,7 +69,7 @@ const tabs = ref([
       "title": "Dinner"
     }, {
       "time": "09:00 PM",
-      "title": "Close (TBD)"
+      "title": "Close"
     }]
   },
   {
@@ -91,7 +92,7 @@ const tabs = ref([
       "time": "04:30 PM",
       "title": "Final Announcement"
     }, {
-      "time": "06:00 PM",
+      "time": "07:00 PM",
       "title": "Close"
     }]
   },

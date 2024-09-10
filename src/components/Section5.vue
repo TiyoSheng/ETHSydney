@@ -1,3 +1,4 @@
+<!-- Sponsor -->
 <script setup>
 import { ref } from 'vue'
 </script>
@@ -7,9 +8,11 @@ import { ref } from 'vue'
     <div class="section-content">
       <img src="../assets/images/title5.png" alt="venue" class="title">
       <div class="list flex-center-center">
+        <!--
         <div class="item flex-center-center">
           <img src="../assets/images/eco.png" alt="">
         </div>
+        -->
         <div class="item flex-center-center">
           <img src="../assets/images/unsw.png" alt="">
         </div>

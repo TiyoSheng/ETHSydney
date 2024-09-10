@@ -31,31 +31,34 @@ onBeforeUnmount(() => {
   <div class="nav" :class="{ 'show-bg': scrollY > 100 }">
     <div class="nav-content flex-center-sb">
       <div class="logo flex-center-start">
-        <img src="../assets/images/logo.png" alt="logo">
-        <span>ETHSydney</span>
+        <a href="https://2024.ethsydney.net/"><img src="../assets/images/logo.png" alt="logo"></a>
+        <a href="https://2024.ethsydney.net/"><span>ETHSydney</span></a>
       </div>
       <div v-if="isMobile" class="menu-icon" @click="showMenu = !showMenu">
         <img v-if="!showMenu" src="../assets/images/menu.svg" alt="menu">
         <img v-if="showMenu" src="../assets/images/close.svg" alt="menu">
       </div>
       <div class="nav-list" v-if="isMobile ? showMenu : true">
-        <div class="nav-item"><a href="https://lu.ma/ETHsydney" target="_blank">Enrol</a></div>
+        <div class="nav-item"><a href="https://lu.ma/q5q134u6" target="_blank">Enrol</a></div>
         <div class="nav-item"><a href="https://t.me/EthereumSydney" target="_blank">Telegram</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section1' }" @click="menuClick('#section1')">
           <router-link to="#section1">Schedule</router-link>
         </div>
-        <div class="nav-item" :class="{ active: activeHash === '#section3' }" @click="menuClick('#section3')">
-          <router-link to="#section3">Venue</router-link>
-        </div>
         <div class="nav-item" :class="{ active: activeHash === '#section2' }" @click="menuClick('#section2')">
           <router-link to="#section2">Track</router-link>
         </div>
-        <div class="nav-item">
-          <a href="https://ethglobal.com/events/singapore2024#speakers" target="_blank">Mentor & Judge</a>
+        <div class="nav-item" :class="{ active: activeHash === '#section3' }" @click="menuClick('#section3')">
+          <router-link to="#section3">Venue</router-link>
+        </div>        
+        <div class="nav-item" :class="{ active: activeHash === '#section4' }" @click="menuClick('#section4')">
+          <router-link to="#section4">Speakers & Mentors</router-link>
         </div>
+        <!--
         <div class="nav-item" :class="{ active: activeHash === '#section5' }" @click="menuClick('#section5')">
           <router-link to="#section5">Sponsor</router-link>
         </div>
+        -->
+        <div class="nav-item"><a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank">Sponsor</a></div>
         <div class="nav-item" :class="{ active: activeHash === '#section6' }" @click="menuClick('#section6')">
           <router-link to="#section6">FAQ</router-link>
         </div>

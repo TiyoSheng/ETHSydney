@@ -1,3 +1,4 @@
+<!-- Past supporters -->
 <script setup>
 import { ref } from 'vue'
 import Border from '../assets/images/Border.png'
