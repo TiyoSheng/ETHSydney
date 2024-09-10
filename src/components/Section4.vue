@@ -56,7 +56,7 @@ const list = [
     <div class="section-content">
       <img src="../assets/images/title4.png" alt="venue" class="title">
       <div class="list">
-        <div v-for="item in []" class="item">
+        <div v-for="item in list" class="item">
           <img :src="item.avatar" alt="" class="avatar">
           <p class="name">{{ item.name }}</p>
           <p class="role">{{ item.role }}</p>
@@ -68,7 +68,7 @@ const list = [
 <style lang="scss" scoped>
 .section-content {
   background-image: url('../assets/images/04.png');
-  min-height: 100vh;
+  // min-height: 100vh;
 
   .list {
     max-width: 1100px;
