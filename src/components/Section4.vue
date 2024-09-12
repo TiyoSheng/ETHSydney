@@ -2,55 +2,18 @@
 <script setup>
 import { ref } from 'vue'
 import kt from '../assets/avatar/kt.png'
-import am from '../assets/avatar/am.png'
-import bp from '../assets/avatar/bp.png'
-import c from '../assets/avatar/c.png'
-import dw from '../assets/avatar/dw.png'
-import ed from '../assets/avatar/ed.png'
-import gm from '../assets/avatar/gm.png'
-import kj from '../assets/avatar/kj.png'
-import kk from '../assets/avatar/kk.png'
-import lr from '../assets/avatar/lr.png'
-import mc from '../assets/avatar/mc.png'
-import ml from '../assets/avatar/ml.png'
-import mo from '../assets/avatar/mo.png'
-import nm from '../assets/avatar/nm.png'
-import rp from '../assets/avatar/rp.png'
-import sh from '../assets/avatar/sh.png'
 import sk from '../assets/avatar/sk.png'
-import ss from '../assets/avatar/ss.png'
-import sn from '../assets/avatar/sn.png'
-import sp from '../assets/avatar/sp.png'
-import sv from '../assets/avatar/sv.png'
-import ts from '../assets/avatar/ts.png'
-import yk from '../assets/avatar/yk.png'
+import sh from '../assets/avatar/sh.png'
+import ml from '../assets/avatar/ml.png'
 
 const list = [
   { name: 'Kartik Talwar', avatar: kt, role: 'ETHGlobal' },
   { name: 'Stani Kulechov', avatar: sk, role: 'Avara Labs' },
   { name: 'Swaroop Hegde', avatar: sh, role: 'PowerLoom' },
-  { name: 'Mikael Lazarev', avatar: ml, role: 'Gearbox' },
-  { name: 'Sandy Peng', avatar: sp, role: 'Scroll' },
-  { name: 'Lane Rettig', avatar: lr, role: 'Spacemesh' },
-  { name: 'Nandit Mehra', avatar: nm, role: 'Lighthouse' },
-  { name: 'Sandeep Nailwal', avatar: sn, role: 'Polygon Labs' },
-  { name: 'Tomasz Stanczak', avatar: ts, role: 'Nethermind' },
-  { name: 'Marek Olszewski', avatar: mo, role: 'Celo' },
-  { name: 'Kautuk Kundan', avatar: kk, role: 'Stackr Labs' },
-  { name: 'Dominic Williams', avatar: dw, role: 'DFINITY Foundation' },
-  { name: 'Yesim Kaymak', avatar: yk, role: 'Scalar Capital' },
-  { name: 'Bryan Pellegrino', avatar: bp, role: 'LayerZero' },
-  { name: 'Mike Cahill', avatar: mc, role: 'Douro Labs' },
-  { name: 'Kevin Jones', avatar: kj, role: 'Edge & Node | Build Guild' },
-  { name: 'ctrlc03', avatar: c, role: 'Privacy and Scaling Exploration' },
-  { name: 'Raphael Panic', avatar: rp, role: 'Sacred Protocol' },
-  { name: 'Sumit Vekariya', avatar: sv, role: 'Sacred Protocol' },
-  { name: 'Gwen Martin', avatar: gm, role: 'Ora' },
-  { name: 'Shantanu Sontakke', avatar: ss, role: 'Zokyo' },
-  { name: 'Ethan Duo', avatar: ed, role: 'DPLabs' },
-  { name: 'Alex Metelli', avatar: am, role: 'Nethermind' }
+  { name: 'Mikael Lazarev', avatar: ml, role: 'Gearbox' }
 ]
 </script>
+
 
 <template>
   <div class="section">
