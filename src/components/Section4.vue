@@ -1,16 +1,16 @@
 <!-- Speakers Mentors Judges -->
 <script setup>
 import { ref } from 'vue'
-import kt from '../assets/avatar/kt.png'
-import sk from '../assets/avatar/sk.png'
-import sh from '../assets/avatar/sh.png'
-import ml from '../assets/avatar/ml.png'
+import GeoffLamperd from '../assets/avatar/GeoffLamperd.jpg'
+import bokkypoobah from '../assets/avatar/bokkypoobah.png'
+import JasonRudolph from '../assets/avatar/JasonRudolph.jpg'
+import danielbar from '../assets/avatar/danielbar.jpg'
 
 const list = [
-  { name: 'Kartik Talwar', avatar: kt, role: 'ETHGlobal' },
-  { name: 'Stani Kulechov', avatar: sk, role: 'Avara Labs' },
-  { name: 'Swaroop Hegde', avatar: sh, role: 'PowerLoom' },
-  { name: 'Mikael Lazarev', avatar: ml, role: 'Gearbox' }
+  { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
+  { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
+  { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'dMPC' },
+  { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' }
 ]
 </script>
 
