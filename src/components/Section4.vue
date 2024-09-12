@@ -14,7 +14,6 @@ const list = [
 ]
 </script>
 
-
 <template>
   <div class="section">
     <div class="section-content">
