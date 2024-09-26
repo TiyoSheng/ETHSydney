@@ -34,10 +34,20 @@ const list = [
 <style lang="scss" scoped>
 .section-content {
   background-image: url('../assets/images/04.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px; /* Added padding for better spacing on mobile */
+
+  .title {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
 
   .list {
     max-width: 1100px;
-    margin: 80px auto 0;
+    margin: 40px auto 0;
     display: flex;
     flex-wrap: wrap;
     gap: 28px;
@@ -47,24 +57,28 @@ const list = [
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 233px;
+      width: calc(25% - 28px); /* Adjusted to allow four items per row on larger screens */
 
       .avatar-wrapper {
-        width: 233px;
-        height: 233px;
-        border-radius: 50%;
-        overflow: hidden; /* Ensures the image is clipped to the container's bounds */
-      }
-
-      .avatar {
         width: 100%;
-        height: 100%;
-        object-fit: cover; /* Scales the image to cover the container */
+        padding-top: 100%; /* Maintains aspect ratio */
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+
+        .avatar {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
 
       .name {
         margin-top: 16px;
-        font-family: NotoSans;
+        font-family: NotoSans, sans-serif;
         font-size: 18px;
         line-height: 28px;
         text-align: center;
@@ -72,7 +86,7 @@ const list = [
       }
 
       .role {
-        font-family: Inter;
+        font-family: Inter, sans-serif;
         font-size: 15px;
         line-height: 24px;
         text-align: center;
@@ -82,44 +96,52 @@ const list = [
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .list .item {
+    width: calc(33.33% - 28px); /* Three items per row */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .section-content {
     background-image: url('../assets/images/m_04.png');
+    padding: 40px 16px;
 
     .list {
       margin-top: 16px;
-      padding: 0 16px;
       gap: 16px;
 
       .item {
-        width: 100%;
-        margin-bottom: 20px;
-
-        .avatar-wrapper {
-          width: 100%;
-          height: auto;
-          aspect-ratio: 1 / 1; /* Maintains a square aspect ratio */
-          border-radius: 50%;
-          overflow: hidden;
-        }
-
-        .avatar {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+        width: calc(50% - 16px); /* Two items per row */
 
         .name {
-          margin-top: 14px;
-          font-size: 14px;
-          line-height: 22px;
+          margin-top: 12px;
+          font-size: 16px;
+          line-height: 24px;
         }
 
         .role {
-          font-size: 13px;
-          line-height: 19px;
+          font-size: 14px;
+          line-height: 20px;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .list .item {
+    width: 100%; /* One item per row */
+    margin-bottom: 20px;
+
+    .name {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .role {
+      font-size: 13px;
+      line-height: 19px;
     }
   }
 }
