@@ -124,7 +124,7 @@ const open = (link) => {
       justify-content: center;
 
       .item {
-        background: #1C1C1C;
+        // background: #1C1C1C;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         cursor: pointer;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
