@@ -80,6 +80,7 @@ const activeIndex = ref([])
         font-size: 24px;
         font-weight: 400;
         color: #ffffff;
+        text-align: left;
       }
 
       .arrow {

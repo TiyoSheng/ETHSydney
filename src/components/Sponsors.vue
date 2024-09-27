@@ -29,7 +29,7 @@ import { ref } from 'vue'
 
 .section-content {
   // background-image: url('../assets/images/05.png');
-  background-color: #111;
+  // background-color: #111;
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -117,6 +117,7 @@ import { ref } from 'vue'
       .item {
         // width: 100%;
         height: 120px; /* Adjusted height for mobile */
+        
 
         img {
           max-width: 100%;
