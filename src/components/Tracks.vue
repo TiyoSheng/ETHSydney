@@ -16,7 +16,7 @@ import { ref } from 'vue'
             <p class="item-title">Making Ethereum Cypherpunk Again</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
-              $3,000 for open-source projects on Ethereum
+              $2,500 for open-source projects on Ethereum
             </p>
           </div>
         </div>
@@ -27,7 +27,7 @@ import { ref } from 'vue'
             <p class="item-title">Exclusively for young minds ready to push the boundaries of creativity and technology.</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
-              $3,000 for the projects built by youth
+              $1,500 for the projects built by youth
             </p>
           </div>
         </div>

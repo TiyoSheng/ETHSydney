@@ -29,36 +29,24 @@ const tabs = ref([
     title: 'Day 1 - 25 October',
     list: [
       {
-        time: '02:00 PM',
-        title: 'Welcome & Registration',
-      },
-      {
-        time: '02:30 PM',
-        title: 'Speech 1',
-      },
-      {
-        time: '03:15 PM',
-        title: 'Speech 2',
-      },
-      {
-        time: '04:00 PM',
-        title: 'Break & Networking',
-      },
-      {
-        time: '04:30 PM',
-        title: 'Speech 3',
-      },
-      {
-        time: '05:15 PM',
-        title: 'Team formation & Registration (Check-in 1)',
+        time: '05:00 PM',
+        title: 'Check-In',
       },
       {
         time: '06:30 PM',
         title: 'Dinner',
       },
       {
-        time: '07:00 PM',
-        title: 'Hacking',
+        time: '07:30 PM',
+        title: 'Opening Talk - TBD',
+      },
+      {
+        time: '08:00 PM',
+        title: 'Opening Talk 2',
+      },
+      {
+        time: '08:30 PM',
+        title: 'Team Formation',
       },
       {
         time: '09:00 PM',
