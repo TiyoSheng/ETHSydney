@@ -15,7 +15,7 @@ const list = [
   },
   {
     number: 4,
-    title: 'Decentralized socials/communication',
+    title: 'Decentralized socials & communication',
   },
   {
     number: 5,
@@ -27,8 +27,6 @@ const list = [
 <template>
   <div class="section">
     <div class="section-content">
-      <!-- Optional Title Image -->
-      <!-- <img src="../assets/images/title4.png" alt="Themes" class="title"> -->
 
       <div class="title-text">
         Hackathon Themes
@@ -47,16 +45,22 @@ const list = [
 </template>
 
 <style lang="scss" scoped>
+/* Import the Chakra Petch font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 .section-content {
   background-color: #1C1C1C;
   padding: 80px 20px;
   color: #FFFFFF;
 
   .title-text {
-    font-size: 24px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
     margin-bottom: 40px;
     padding-left: 20px;
-    transition: padding-left 0.3s ease; /* Smooth transition */
+    text-align: left;
+    transition: padding-left 0.3s ease;
   }
 
   .list {
@@ -77,15 +81,18 @@ const list = [
       padding: 10px;
 
       .number-label {
+        font-family: 'Chakra Petch', sans-serif;
         font-size: 36px;
-        font-weight: bold;
-        color: #fff;
+        font-weight: 700;
+        color: #FFFFFF;
         margin-bottom: 8px;
       }
 
       .name {
-        font-size: 18px;
-        line-height: 24px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
         text-align: left;
         margin-bottom: 8px;
       }
@@ -124,7 +131,7 @@ const list = [
     padding: 40px 15px;
 
     .title-text {
-      font-size: 22px;
+      font-size: 40px;
       margin-bottom: 30px;
       padding-left: 15px;
     }
@@ -143,8 +150,8 @@ const list = [
         }
 
         .name {
-          font-size: 16px;
-          line-height: 22px;
+          font-size: 20px;
+          line-height: 28px;
         }
       }
     }
@@ -156,7 +163,7 @@ const list = [
     padding: 30px 10px;
 
     .title-text {
-      font-size: 20px;
+      font-size: 32px;
       margin-bottom: 20px;
       padding-left: 10px;
     }
@@ -175,8 +182,8 @@ const list = [
         }
 
         .name {
-          font-size: 14px;
-          line-height: 20px;
+          font-size: 18px;
+          line-height: 24px;
         }
       }
     }

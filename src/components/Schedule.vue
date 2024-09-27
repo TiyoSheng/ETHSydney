@@ -184,11 +184,12 @@ const activeTab = ref(1)
   color: #fff;
 
   .title-text {
-    font-size: 24px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
     margin-bottom: 40px;
     padding-left: 20px;
     text-align: left;
-    font-weight: bold;
     transition: padding-left 0.3s ease;
   }
 
@@ -280,17 +281,30 @@ const activeTab = ref(1)
   }
 }
 
+/* Adjust the title's position as the screen width increases */
+@media screen and (min-width: 768px) {
+  .title-text {
+    padding-left: calc(5% + 20px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title-text {
+    padding-left: calc(10% + 20px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title-text {
+    padding-left: calc(20% + 20px);
+  }
+}
+
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   .section-content {
     padding: 40px 15px;
     min-height: 0;
-
-    .title-text {
-      font-size: 22px;
-      margin-bottom: 30px;
-      padding-left: 15px;
-    }
 
     .tabs {
       gap: 12px;

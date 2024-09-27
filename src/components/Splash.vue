@@ -46,14 +46,14 @@ onMounted(() => {
 }
 
 .column-text {
-  max-width: 600px;
+  max-width: 650px; /* Increased max-width to give more space */
   padding-right: 20px;
 }
 
 .column-text h1 {
-  font-family: AlegreyaSansSC, sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 72px;
-  font-weight: 900;
+  font-weight: 700; /* Use 700 for Bold */
   line-height: 1.2;
   color: #FFFFFF;
   margin-bottom: 40px;
@@ -68,19 +68,20 @@ onMounted(() => {
 }
 
 .column-text p {
-  font-family: PasseroOne, sans-serif;
-  font-size: 28px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 24px; /* Reduced font size */
   line-height: 1.4;
   color: #FFFFFF;
   text-align: left;
   margin-bottom: 20px;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .register-button {
   display: inline-block;
   margin-top: 30px;
   padding: 15px 30px;
-  font-family: PasseroOne, sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 20px;
   color: #FFFFFF;
   background-color: #5856D6;
@@ -115,9 +116,15 @@ onMounted(() => {
   .banner-content {
     padding-left: 0;
   }
+  .column-text {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
   .column-text h1 {
     font-size: 64px;
     margin-bottom: 30px;
+  }
+  .column-text p {
+    font-size: 22px; /* Adjust font size for smaller screens */
   }
   .column-image img {
     max-height: 400px;
@@ -128,6 +135,9 @@ onMounted(() => {
   .column-text h1 {
     font-size: 56px;
     margin-bottom: 25px;
+  }
+  .column-text p {
+    font-size: 20px; /* Further reduce font size */
   }
   .column-image img {
     max-height: 350px;
@@ -157,8 +167,9 @@ onMounted(() => {
     text-align: center;
   }
   .column-text p {
-    font-size: 20px;
+    font-size: 18px; /* Adjust font size for mobile */
     text-align: center;
+    white-space: normal; /* Allow wrapping on mobile */
   }
   .register-button {
     margin-top: 20px;
