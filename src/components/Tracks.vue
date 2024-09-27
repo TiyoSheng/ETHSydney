@@ -171,6 +171,8 @@ import { ref } from 'vue'
       .item {
         flex-direction: column;
         align-items: flex-start;
+        flex-wrap: wrap;
+        width: 400px;
 
         .icon {
           width: 28px;
@@ -186,6 +188,8 @@ import { ref } from 'vue'
 
         .item-box {
           width: 100%;
+          flex: 1;
+          min-width: 0;
           padding: 16px;
           gap: 12px;
           border: 1px solid #525252;
@@ -193,6 +197,7 @@ import { ref } from 'vue'
           .item-title {
             font-size: 18px;
             line-height: 24px;
+            white-space: normal;
           }
 
           .item-content {
