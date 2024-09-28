@@ -18,7 +18,7 @@ onMounted(() => {
         <h1>Make <span>Ethereum</span> Cypherpunk Again</h1>
         <p>Date: 25-27 Oct 2024 ｜ Venue: UNSW Founders</p>
         <!-- Register Button -->
-        <a href="https://lu.ma/kqbga4fl" target="_blank" class="register-button">Register Now</a>
+        <a href="https://lu.ma/q5q134u6" target="_blank" class="register-button">Register Now</a>
       </div>
       <div class="column column-image">
         <img src="../assets/images/mask.jpg" alt="Mask Image representing Ethereum Cypherpunk" />
