@@ -5,12 +5,16 @@ import GeoffLamperd from '../assets/avatar/GeoffLamperd.jpg'
 import bokkypoobah from '../assets/avatar/bokkypoobah.png'
 import JasonRudolph from '../assets/avatar/JasonRudolph.jpg'
 import danielbar from '../assets/avatar/danielbar.jpg'
+import jeevasuresh from '../assets/avatar/jeevasuresh.jpg'
+import archiewhitford from '../assets/avatar/archiewhitford.jpg'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
   { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
   { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'dMPC' },
   { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' },
+  { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'founding partner Helix' },
+  { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
 ]
 </script>
 
