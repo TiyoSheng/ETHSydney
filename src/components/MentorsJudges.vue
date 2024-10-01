@@ -6,7 +6,7 @@ import bokkypoobah from '../assets/avatar/bokkypoobah.png'
 import JasonRudolph from '../assets/avatar/JasonRudolph.jpg'
 import danielbar from '../assets/avatar/danielbar.jpg'
 import jeevasuresh from '../assets/avatar/jeevasuresh.jpg'
-import archiewhitford from '../assets/avatar/archiewhitford.jpg'
+import archiewhitford from '../assets/avatar/archiewhitford.png'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
