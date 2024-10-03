@@ -10,10 +10,16 @@ import { ref } from 'vue'
       <div class="title-text">Sponsors</div>
       <div class="list flex-center-center">
         <div class="item flex-center-center">
-          <img src="../assets/images/eco.png" alt="Eco">
+          <img src="../assets/images/eco.png" alt="ESP">
         </div>
         <div class="item flex-center-center">
           <img src="../assets/images/unsw.png" alt="UNSW">
+        </div>
+        <div class="item flex-center-center">
+          <img src="../assets/images/Hansa.jpg" alt="Hansa">
+        </div>
+        <div class="item flex-center-center">
+          <img src="../assets/images/Helix.png" alt="Helix">
         </div>
       </div>
       <button>
