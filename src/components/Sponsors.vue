@@ -53,31 +53,34 @@ import { ref } from 'vue'
   }
 
   .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  .item {
+    width: 300px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    padding: 20px; /* Padding to create space around the image */
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 60px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #525252;
+    overflow: hidden; /* Truncate content if it exceeds container bounds */
 
-    .item {
-      width: 340px;
-      height: 150px; /* Increased height to accommodate images */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      background: #ffffff;
-      box-sizing: border-box;
-      border: 2px solid #525252;
-      padding: 10px; /* Added padding inside the item */
-
-      img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-      }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Cover the entire container, potentially cropping */
     }
   }
+}
+
+
   
   button {
     width: 286px;

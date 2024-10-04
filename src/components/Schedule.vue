@@ -304,7 +304,8 @@ const activeTab = ref(1)
         height: 50px;
 
         p {
-          font-size: 16px;
+          font-size: 14px; /* Reduced font size for mobile */
+          font-weight: 500; /* Reduced font weight for mobile */
         }
       }
     }
@@ -330,6 +331,7 @@ const activeTab = ref(1)
     }
   }
 }
+
 </style>
 
 <style lang="scss">
