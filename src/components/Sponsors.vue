@@ -10,19 +10,19 @@ import { ref } from 'vue'
       <div class="title-text">Sponsors</div>
       <div class="list flex-center-center">
         <div class="item flex-center-center">
-          <img src="../assets/images/eco.png" alt="ESP">
+          <a href="https://esp.ethereum.foundation/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/eco.png" alt="ESP"></a>
         </div>
         <div class="item flex-center-center">
-          <img src="../assets/images/unsw.png" alt="UNSW">
+          <a href="https://unswfounders.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/unsw.png" alt="UNSW"></a>
         </div>
         <div class="item flex-center-center">
-          <img src="../assets/images/Hansa.jpg" alt="Hansa">
+          <a href="https://hansa.network/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Hansa.jpg" alt="Hansa"></a>
         </div>
         <div class="item flex-center-center">
-          <img src="../assets/images/Helix.png" alt="Helix">
+          <a href="https://www.helixcollective.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Helix.png" alt="Helix"></a>
         </div>
         <div class="item flex-center-center">
-          <img src="../assets/images/Rise_Black.png" alt="Rise">
+          <a href="https://riselabs.xyz/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Rise_Black.png" alt="Rise"></a>
         </div>
       </div>
       <button>
