@@ -7,27 +7,18 @@ import { ref } from 'vue'
   <div class="section">
     <div class="section-content">
       <!-- Replaced the image header with a text header -->
-      <div class="title-text">Sponsors</div>
+      <div class="title-text">Community Support</div>
       <div class="list flex-center-center">
         <div class="item flex-center-center">
-          <a href="https://esp.ethereum.foundation/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/eco.png" alt="ESP"></a>
+          <a href="https://ausbuildors.liamz.co/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-ausbuildooors.png" alt="aus buildooors"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://unswfounders.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/unsw.png" alt="UNSW"></a>
+          <a href="https://www.ethkl.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-ethkl.avif" alt="UNSW"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://www.helixcollective.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Helix.png" alt="Helix"></a>
-        </div>
-        <div class="item flex-center-center">
-          <a href="https://riselabs.xyz/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Rise_Black.png" alt="Rise"></a>
-        </div>
-        <div class="item flex-center-center">
-          <a target="_blank" href="https://hansa.network/"><img src="../assets/images/Hansa.jpg" alt="Hansa"></a>
+          <a href="https://github.com/bokkypoobah/BokkyPooBahsEthereumWorkshop" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-Bokky.png" alt="Helix"></a>
         </div>
       </div>
-      <button>
-        <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank" rel="noopener noreferrer">Sponsor Us</a>
-      </button>
     </div>
   </div>
 </template>
@@ -38,7 +29,7 @@ import { ref } from 'vue'
 
 .section-content {
   // background-image: url('../assets/images/05.png');
-  background-color: #111;
+  background-color: #1a1a1a;
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -57,7 +48,7 @@ import { ref } from 'vue'
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
-  margin-bottom: 60px;
+  // margin-bottom: 40px;
 
   .item {
     width: 300px; /* Fixed width */

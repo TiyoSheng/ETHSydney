@@ -13,6 +13,7 @@ import Section3 from '../components/Section3.vue'
 import MentorsJudges from '../components/MentorsJudges.vue'
 import Section4 from '../components/Section4.vue'
 import Sponsors from '../components/Sponsors.vue'
+import CommunitySupport from '../components/CommunitySupport.vue'
 import Section5 from '../components/Section5.vue'
 import Faq from '../components/Faq.vue'
 import Section6 from '../components/Section6.vue'
@@ -45,6 +46,8 @@ import PastSupporters from '../components/PastSupporters.vue'
 
     <!-- <Section5 id="section5" /> -->
     <Sponsors id="sponsors" />
+
+    <CommunitySupport id="communitysupport" />
 
     <!-- <Section6 id="section6" /> -->
     <Faq id="faq" />
