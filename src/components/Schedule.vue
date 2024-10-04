@@ -26,7 +26,7 @@ const tabs = ref([
   },
   {
     id: 2,
-    title: 'Day 1 - 25 October',
+    title: 'Day 1 - 25 Oct',
     list: [
       {
         time: '05:00 PM',
@@ -56,7 +56,7 @@ const tabs = ref([
   },
   {
     id: 3,
-    title: 'Day 2 - 26 October',
+    title: 'Day 2 - 26 Oct',
     list: [
       {
         time: '07:00 AM',
@@ -94,7 +94,7 @@ const tabs = ref([
   },
   {
     id: 4,
-    title: 'Day 3 - 27 October',
+    title: 'Day 3 - 27 Oct',
     list: [
       {
         time: '07:00 AM',
