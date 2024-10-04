@@ -54,10 +54,10 @@ onBeforeUnmount(() => {
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section1' }"
-          @click="menuClick('#section1')"
+          :class="{ active: activeHash === '#Schedule' }"
+          @click="menuClick('#Schedule')"
         >
-          <router-link to="#section1">Schedule</router-link>
+          <router-link to="#Schedule">Schedule</router-link>
         </div>
         <div
           class="nav-item"

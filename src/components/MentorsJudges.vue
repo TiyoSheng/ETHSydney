@@ -16,7 +16,7 @@ const list = [
   { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' },
   { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'founding partner Helix' },
   { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
-  { name: 'Sam', avatar: sam, role: 'Co-founder Rise Chain' }
+  { name: 'Sam', avatar: sam, role: 'Co-founder of Rise Chain' }
 ]
 </script>
 
