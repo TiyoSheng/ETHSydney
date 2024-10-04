@@ -16,13 +16,13 @@ import { ref } from 'vue'
           <a href="https://unswfounders.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/unsw.png" alt="UNSW"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://hansa.network/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Hansa.jpg" alt="Hansa"></a>
-        </div>
-        <div class="item flex-center-center">
           <a href="https://www.helixcollective.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Helix.png" alt="Helix"></a>
         </div>
         <div class="item flex-center-center">
           <a href="https://riselabs.xyz/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Rise_Black.png" alt="Rise"></a>
+        </div>
+        <div class="item flex-center-center" href="https://hansa.network/">
+          <img src="../assets/images/Hansa.jpg" alt="Hansa">
         </div>
       </div>
       <button>
