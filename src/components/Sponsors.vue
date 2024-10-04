@@ -21,6 +21,9 @@ import { ref } from 'vue'
         <div class="item flex-center-center">
           <img src="../assets/images/Helix.png" alt="Helix">
         </div>
+        <div class="item flex-center-center">
+          <img src="../assets/images/Rise_Black.png" alt="Rise">
+        </div>
       </div>
       <button>
         <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank" rel="noopener noreferrer">Sponsor Us</a>

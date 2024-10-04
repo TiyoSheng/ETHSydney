@@ -7,6 +7,7 @@ import JasonRudolph from '../assets/avatar/JasonRudolph.jpg'
 import danielbar from '../assets/avatar/danielbar.jpg'
 import jeevasuresh from '../assets/avatar/jeevasuresh.jpg'
 import archiewhitford from '../assets/avatar/archiewhitford.png'
+import sam from '../assets/avatar/Sam.png'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
@@ -15,6 +16,7 @@ const list = [
   { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' },
   { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'founding partner Helix' },
   { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
+  { name: 'Sam', avatar: sam, role: 'Co-founder Rise Chain' }
 ]
 </script>
 
