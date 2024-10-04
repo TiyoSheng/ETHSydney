@@ -54,45 +54,45 @@ onBeforeUnmount(() => {
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#Schedule' }"
-          @click="menuClick('#Schedule')"
+          :class="{ active: activeHash === '#schedule' }"
+          @click="menuClick('#schedule')"
         >
-          <router-link to="#Schedule">Schedule</router-link>
+          <router-link to="#schedule">Schedule</router-link>
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section2' }"
-          @click="menuClick('#section2')"
+          :class="{ active: activeHash === '#tracks' }"
+          @click="menuClick('#tracks')"
         >
-          <router-link to="#section2">Track</router-link>
+          <router-link to="#tracks">Tracks</router-link>
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section3' }"
-          @click="menuClick('#section3')"
+          :class="{ active: activeHash === '#venue' }"
+          @click="menuClick('#venue')"
         >
-          <router-link to="#section3">Venue</router-link>
+          <router-link to="#venue">Venue</router-link>
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section4' }"
-          @click="menuClick('#section4')"
+          :class="{ active: activeHash === '#mentorsjudges' }"
+          @click="menuClick('#mentorsjudges')"
         >
-          <router-link to="#section4">Speakers & Mentors</router-link>
+          <router-link to="#mentorsjudges">Speakers & Mentors</router-link>
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section5' }"
-          @click="menuClick('#section5')"
+          :class="{ active: activeHash === '#sponsors' }"
+          @click="menuClick('#sponsors')"
         >
-          <router-link to="#section5">Sponsor</router-link>
+          <router-link to="#sponsors">Sponsor</router-link>
         </div>
         <div
           class="nav-item"
-          :class="{ active: activeHash === '#section6' }"
-          @click="menuClick('#section6')"
+          :class="{ active: activeHash === '#faq' }"
+          @click="menuClick('#faq')"
         >
-          <router-link to="#section6">FAQ</router-link>
+          <router-link to="#faq">FAQ</router-link>
         </div>
       </div>
     </div>
