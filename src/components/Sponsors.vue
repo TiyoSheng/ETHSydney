@@ -22,7 +22,7 @@ import { ref } from 'vue'
           <a href="https://riselabs.xyz/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Rise_Black.png" alt="Rise"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://hansa.network/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Hansa.jpg" alt="Hansa"></a>
+          <img src="../assets/images/Hansa.jpg" alt="Hansa">
         </div>
       </div>
       <button>
