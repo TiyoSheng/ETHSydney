@@ -16,7 +16,7 @@ import { ref } from 'vue'
             <p class="item-title">Making Ethereum Cypherpunk Again</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
-              $2,500 for open-source projects on Ethereum
+              $2,500 for open-source projects on Ethereum (complementary 1 FREE DEVCON ticket)
             </p>
           </div>
         </div>
@@ -27,29 +27,19 @@ import { ref } from 'vue'
             <p class="item-title">Exclusively for young minds ready to push the boundaries of creativity and technology.</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
-              $1,500 for the projects built by youth
+              $1,500 for the projects built by youth (complementary 1 FREE DEVCON ticket)
             </p>
           </div>
         </div>
         <div class="item flex-center-start">
           <img src="../assets/images/ethIcon.svg" alt="" class="icon">
-          <div class="item-track">Track 3</div>
+          <div class="item-track">Security Track</div>
           <div class="item-box flex-start-center">
-            <p class="item-title">&lt;Sponsor Track 1&gt;</p>
+            <p class="item-title">From smart contract audits to building privacy-preserving tools, this track will challenge you to push the boundaries of Ethereum security. 
+            Let’s Make Ethereum Cypherpunk Again by developing robust, trustless systems that defend user sovereignty.</p>
             <p class="item-content flex-center-start">
               <img src="../assets/images/infoIcon.svg" alt="">
-              Build open-source projects on Ethereum
-            </p>
-          </div>
-        </div>
-        <div class="item flex-center-start">
-          <img src="../assets/images/ethIcon.svg" alt="" class="icon">
-          <div class="item-track">Track 4</div>
-          <div class="item-box flex-start-center">
-            <p class="item-title">&lt;Sponsor Track 2&gt;</p>
-            <p class="item-content flex-center-start">
-              <img src="../assets/images/infoIcon.svg" alt="">
-              Build open-source projects on Ethereum
+              $1,000 for the projects focused on security (complementary 3 50% off DEVCON ticket)
             </p>
           </div>
         </div>
