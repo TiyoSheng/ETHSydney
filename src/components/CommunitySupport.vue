@@ -13,7 +13,10 @@ import { ref } from 'vue'
           <a href="https://ausbuildors.liamz.co/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-ausbuildooors.png" alt="aus buildooors"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://www.ethkl.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-ethkl.avif" alt="UNSW"></a>
+          <a href="https://www.ethkl.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-ethkl.avif" alt="ethkl"></a>
+        </div>
+        <div class="item flex-center-center">
+          <a href="https://ethriyadh.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/ETHRiyadh.jpg" alt="ETHRiyadh"></a>
         </div>
         <div class="item flex-center-center">
           <a href="https://github.com/bokkypoobah/BokkyPooBahsEthereumWorkshop" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-Bokky.png" alt="Helix"></a>
