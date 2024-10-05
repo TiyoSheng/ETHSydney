@@ -145,7 +145,7 @@ import { ref } from 'vue'
   .section-content {
     min-height: 0;
     // padding: 0 20px; // Added padding to create space from screen edges
-    background-color: #000;
+    background-color: #1C1C1C;
 
     .title-text {
       font-size: 32px;
