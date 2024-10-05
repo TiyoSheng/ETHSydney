@@ -185,76 +185,78 @@ onBeforeUnmount(() => {
 
 @media screen and (max-width: 768px) {
   .nav {
-    height: 0.84rem;
+    height: 70px; // Changed from 0.84rem to a fixed pixel value
     background: linear-gradient(
       329deg,
       rgba(0, 0, 0, 0) -9%,
       rgba(0, 0, 0, 0.8) 87%
     );
-    backdrop-filter: blur(0.2rem);
+    backdrop-filter: blur(5px); // Changed from 0.2rem to 5px
 
     .nav-content {
       .logo {
         img {
-          width: 0.44rem;
+          width: 42px; // Changed from 0.44rem to 36px
           height: auto;
         }
 
         span {
           font-family: 'Chakra Petch', sans-serif;
-          font-size: 0.25rem;
+          padding-left: 4px;
+          font-size: 24px; // Changed from 0.25rem to 20px
           font-weight: 700;
-          line-height: 0.31rem;
-          margin-left: 0.18rem;
+          line-height: 25px; // Changed from 0.31rem to 25px
+          margin-left: 12px; // Changed from 0.18rem to 12px
           color: #ffffff;
         }
       }
 
       .menu-icon {
         img {
-          width: 0.48rem;
-          height: 0.48rem;
+          width: 32px; // Changed from 0.48rem to 32px
+          height: 32px; // Changed from 0.48rem to 32px
         }
       }
 
       .nav-list {
         position: absolute;
-        top: 0.84rem;
+        top: 70px; // Changed from 0.84rem to match the new nav height
         width: 100%;
         left: 0;
         flex-direction: column;
         background: linear-gradient(
           329deg,
-          rgba(0, 0, 0, 0) -9%,
+          rgba(0, 0, 0, 0) -80%,
           rgba(0, 0, 0, 0.8) 87%
         );
         gap: 0;
         box-sizing: border-box;
-        border: 0.5px solid;
+        border: 1px solid; // Changed from 0.5px to 1px for better visibility
         border-image: linear-gradient(
             342deg,
             #ffffff 1%,
             rgba(255, 255, 255, 0) 84%
           )
-          0.5;
-        padding: 0 0.36rem;
+          1;
+        padding: 0 15px; // Changed from 0.36rem to 15px
         backdrop-filter: blur(10px);
 
         .nav-item {
-          height: 1.2rem;
+          height: 60px; // Changed from 1.2rem to 50px
           box-sizing: border-box;
-          border-width: 0px 0px 0.78px 0px;
+          border-width: 0px 0px 1px 0px; // Changed from 0.78px to 1px
           border-style: solid;
           border-color: rgba(245, 245, 245, 0.2);
 
           a {
             width: 100%;
             height: 100%;
+            padding-left: 10px;
             display: flex;
             align-items: center;
             font-family: 'Chakra Petch', sans-serif;
-            font-size: 0.25rem;
-            font-weight: 400;
+            font-size: 24px; // Changed from 0.25rem to 16px
+            font-weight: 600;
             color: #ffffff;
           }
 
@@ -269,4 +271,5 @@ onBeforeUnmount(() => {
     }
   }
 }
+
 </style>

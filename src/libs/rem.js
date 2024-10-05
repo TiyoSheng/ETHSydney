@@ -12,7 +12,7 @@
       docEl.style.fontSize = '0px'; // 当宽度超过768px时，保持50px的fontSize
     }
   };
-  
+
   if (!doc.addEventListener) return;
   win.addEventListener(resizeEvt, recalc, false);
   doc.addEventListener('DOMContentLoaded', recalc, false);

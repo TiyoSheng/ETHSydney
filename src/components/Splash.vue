@@ -30,7 +30,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 .banner {
   background-color: #0a0a0a; /* Black background */
-  padding: 120px 20px;
+  padding: 180px 20px;
   color: #fff;
 }
 

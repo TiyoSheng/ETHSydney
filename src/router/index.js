@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Mobile from '../views/Mobile.vue'
 import HackerManual from '../views/HackerManual.vue'
+import Code from '../views/Code.vue'
+import '../index.css'
 
 const routes = [{
   path: '/',
@@ -12,9 +14,13 @@ const routes = [{
   name: 'Mobile',
   component: Mobile
 }, {
-  path: '/hackermanual',
+  path: '/hacker-manual',
   name: 'Hacker Manual',
   component: HackerManual
+}, {
+  path: '/code-of-conduct',
+  name: 'Code of Conduct',
+  component: Code
 }]
 
 // 路由参数配置
