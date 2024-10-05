@@ -59,7 +59,7 @@ const list = [
     font-weight: 700;
     margin-bottom: 40px;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
     transition: padding-left 0.3s ease;
   }
 

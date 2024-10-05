@@ -63,7 +63,7 @@ import { ref } from 'vue'
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
   }
 
@@ -144,36 +144,41 @@ import { ref } from 'vue'
 @media screen and (max-width: 768px) {
   .section-content {
     min-height: 0;
-    // background-image: url('../assets/images/m_02.png');
+    // padding: 0 20px; // Added padding to create space from screen edges
     background-color: #000;
 
     .title-text {
       font-size: 32px;
       margin-bottom: 30px;
-      padding-left: 15px;
+      padding-left: 0; // Removed left padding to align centrally
+      text-align: center; // Center the text to create more uniform spacing
     }
 
     .list {
       margin-top: 40px;
       gap: 32px;
-      padding: 0 15px;
+      padding: 0 10px; // Added padding to ensure items don't touch the screen edges
 
       .item {
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 400px;
+        width: auto; // Changed width to auto to avoid fixed size causing overflow
+        padding: 20px 20px;
 
         .icon {
           width: 28px;
           height: 28px;
+          visibility: hidden; // Hide the icon on smaller screens
         }
 
         .item-track {
+          width: 100%;
           font-size: 20px;
           line-height: 24px;
           padding-left: 0;
-          margin-top: 10px;
+          padding-bottom: 10px;
+          // margin-top: 10px;
         }
 
         .item-box {
@@ -203,4 +208,5 @@ import { ref } from 'vue'
     }
   }
 }
+
 </style>

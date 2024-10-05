@@ -169,6 +169,7 @@ const activeTab = ref(1)
   background-color: #111;
   min-height: 100vh;
   padding: 80px 20px;
+  // text-align: center;
   color: #fff;
 
   .title-text {
@@ -177,17 +178,21 @@ const activeTab = ref(1)
     font-weight: 700;
     margin-bottom: 40px;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
     transition: padding-left 0.3s ease;
+  }
+
+  .tabs,
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; // Center the tabs and the schedule items
+    padding: 0 20px;
+    gap: 16px; // Same gap for consistency
   }
 
   .tabs {
     margin-top: 20px;
-    gap: 16px;
-    box-sizing: border-box;
-    padding: 0 20px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 
     .tab {
       min-width: 200px;
@@ -208,6 +213,10 @@ const activeTab = ref(1)
         box-shadow: 5px 5px 0px 0px rgba(43, 43, 43, 0.5);
       }
 
+      &:hover {
+        background-color: #333;
+      }
+
       p {
         font-family: NotoSans;
         font-size: 18px;
@@ -216,18 +225,12 @@ const activeTab = ref(1)
         text-align: center;
         color: #fff;
       }
-
-      &:hover {
-        background-color: #333;
-      }
     }
   }
 
   .list {
     margin-top: 36px;
     flex-direction: column;
-    gap: 12px;
-    padding: 0 20px;
 
     .item {
       max-width: 1200px;
@@ -293,6 +296,7 @@ const activeTab = ref(1)
   .section-content {
     padding: 40px 15px;
     min-height: 0;
+    
 
     .tabs {
       gap: 12px;
