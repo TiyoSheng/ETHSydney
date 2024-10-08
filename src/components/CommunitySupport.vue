@@ -19,6 +19,9 @@ import { ref } from 'vue'
           <a href="https://ethriyadh.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/ETHRiyadh.jpg" alt="ETHRiyadh"></a>
         </div>
         <div class="item flex-center-center">
+          <a href="https://ethindia.co/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/ethindia-logo.png" alt="ETHIndia"></a>
+        </div>
+        <div class="item flex-center-center">
           <a href="https://github.com/bokkypoobah/BokkyPooBahsEthereumWorkshop" target="_blank" rel="noopener noreferrer"><img src="../assets/images/community-Bokky.png" alt="Helix"></a>
         </div>
       </div>
