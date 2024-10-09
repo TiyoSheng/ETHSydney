@@ -11,15 +11,17 @@ import sam from '../assets/avatar/Sam.png'
 import victor from '../assets/avatar/Victor.png'
 import ZoraizMahmood from '../assets/avatar/ZoraizMahmood.jpeg'
 import JohnHenderson from '../assets/avatar/JohnHenderson.jpg'
+import MehdiZerouali from '../assets/avatar/MehdiZerouali.jpg'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
+  { name: 'Sam', avatar: sam, role: 'Co-founder of Rise Chain' },  
+  { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
+  { name: 'Mehdi Zerouali', avatar: MehdiZerouali, role: 'Cofounder & Director of Sigma Prime' },
   { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
-  { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Salt.' },
   { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' },
   { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'founding partner Helix' },
-  { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
-  { name: 'Sam', avatar: sam, role: 'Co-founder of Rise Chain' },
+  { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Salt.' },    
   { name: 'Victor', avatar: victor, role: 'Co-founder of Smart Token Labs' },
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer of Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' }
