@@ -15,18 +15,18 @@ import MehdiZerouali from '../assets/avatar/MehdiZerouali.jpg'
 import Marta_Adamczyk from '../assets/avatar/Marta_Adamczyk.png'
 
 const list = [
-  { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
+  { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'Lead Software Engineer at PSE' },
   { name: 'Sam Battenally', avatar: sam, role: 'Co-founder of Rise Chain' },  
   { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
   { name: 'Mehdi Zerouali', avatar: MehdiZerouali, role: 'Cofounder & Director of Sigma Prime' },
   { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
-  { name: 'Daniel Bar', avatar: danielbar, role: 'Bitfwd Capital' },
-  { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'founding partner Helix' },
-  { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Salt.' },    
+  { name: 'Daniel Bar', avatar: danielbar, role: 'Co-founder of Spacecoin' },
+  { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'Founding Partner of Helix' },
+  { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Founder of Salt.' },    
   { name: 'Victor Zhang', avatar: victor, role: 'Co-founder of Smart Token Labs' },
-  { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer of Immutable' },
+  { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer at Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
-  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel, SubQuery' }
+  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' }
 ]
 </script>
 
