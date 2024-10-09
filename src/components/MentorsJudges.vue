@@ -12,6 +12,7 @@ import victor from '../assets/avatar/Victor.png'
 import ZoraizMahmood from '../assets/avatar/ZoraizMahmood.jpeg'
 import JohnHenderson from '../assets/avatar/JohnHenderson.jpg'
 import MehdiZerouali from '../assets/avatar/MehdiZerouali.jpg'
+import Marta_Adamczyk from '../assets/avatar/Marta_Adamczyk.png'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'PSE' },
@@ -24,7 +25,8 @@ const list = [
   { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Salt.' },    
   { name: 'Victor', avatar: victor, role: 'Co-founder of Smart Token Labs' },
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer of Immutable' },
-  { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' }
+  { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
+  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel, SubQuery' }
 ]
 </script>
 
