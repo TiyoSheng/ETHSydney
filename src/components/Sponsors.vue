@@ -24,6 +24,9 @@ import { ref } from 'vue'
         <div class="item flex-center-center">
           <a target="_blank" href="https://hansa.network/"><img src="../assets/images/Hansa.jpg" alt="Hansa"></a>
         </div>
+        <div class="item flex-center-center">
+          <a target="_blank" href="https://sigmaprime.io/"><img src="../assets/images/Border-2.png" alt="Sigma Prime"></a>
+        </div>
       </div>
       <button>
         <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank" rel="noopener noreferrer">Sponsor Us</a>
