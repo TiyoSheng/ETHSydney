@@ -24,7 +24,7 @@ import NavBar from '../components/NavBar.vue'
         </div>
 
         <!-- Content Section -->
-        <div class="p-8 space-y-12">
+        <div class="p-4 md:p-6 space-y-8 md:space-y-12">
           <!-- Event Info Section -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <!-- Venue Card -->
@@ -101,7 +101,7 @@ import NavBar from '../components/NavBar.vue'
           </div>
 
           <!-- Mentor Tips Section -->
-          <div class="mt-12">
+          <div class="mt-12 p-1">
             <h2 class="text-3xl font-bold text-center mb-6">Mentor Tips</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
               <!-- Tip Cards -->
