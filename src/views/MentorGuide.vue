@@ -24,48 +24,48 @@ import NavBar from '../components/NavBar.vue'
         </div>
 
         <!-- Content Section -->
-        <div class="p-8 space-y-12">
+        <div class="p-4 md:p-6 space-y-8 md:space-y-12">
           <!-- Event Info Section -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <!-- Venue Card -->
-            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 text-center">
-              <div class="mb-4">
+            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-4 md:p-5 text-center">
+              <div class="mb-2">
                 <!-- Venue Icon -->
-                <svg class="w-16 h-16 mx-auto text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+                <svg class="w-12 h-12 mx-auto text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
                   <!-- Building Icon -->
                   <path d="M4 22a1 1 0 01-1-1V4a1 1 0 011-1h7v5h6v13a1 1 0 01-1 1H4zm13-1V9h-4V5H5v16h12zM7 12h2v2H7v-2zm0 4h2v2H7v-2zm4-4h2v2h-2v-2zm0 4h2v2h-2v-2z"/>
                 </svg>
               </div>
-              <h2 class="text-2xl font-bold mb-2">Venue</h2>
-              <p class="text-lg">UNSW Founders</p>
+              <h2 class="text-xl font-bold mb-1">Venue</h2>
+              <p class="text-base">UNSW Founders</p>
             </div>
 
             <!-- Address Card -->
-            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 text-center">
-              <div class="mb-4">
+            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-4 md:p-5 text-center">
+              <div class="mb-2">
                 <!-- Location Marker Icon -->
-                <svg class="w-16 h-16 mx-auto text-green-500" fill="currentColor" viewBox="0 0 24 24">
+                <svg class="w-12 h-12 mx-auto text-green-500" fill="currentColor" viewBox="0 0 24 24">
                   <!-- Location Icon -->
                   <path fill-rule="evenodd" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd"/>
                 </svg>
               </div>
-              <h2 class="text-2xl font-bold mb-2">Address</h2>
-              <p class="text-lg">
+              <h2 class="text-xl font-bold mb-1">Address</h2>
+              <p class="text-base">
                 Michael Crouch Innovation Centre, UNSW Kensington, Entry via Gate 2 Avenue, Kensington, NSW 2033
               </p>
             </div>
 
             <!-- Date Card -->
-            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 text-center">
-              <div class="mb-4">
+            <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-4 md:p-5 text-center">
+              <div class="mb-2">
                 <!-- Calendar Icon -->
-                <svg class="w-16 h-16 mx-auto text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+                <svg class="w-12 h-12 mx-auto text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
                   <!-- Calendar Icon -->
                   <path d="M19 3h-1V1h-2v2H8V1H6v2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm0 16H5V8h14v11zM7 10h5v5H7v-5z"/>
                 </svg>
               </div>
-              <h2 class="text-2xl font-bold mb-2">Date</h2>
-              <p class="text-lg">Oct 25 5pm - Oct 27 5pm, 2024</p>
+              <h2 class="text-xl font-bold mb-1">Date</h2>
+              <p class="text-base">Oct 25 5pm - Oct 27 5pm, 2024</p>
             </div>
           </div>
 
