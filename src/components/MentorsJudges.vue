@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import GeoffLamperd from '../assets/avatar/GeoffLamperd.jpg'
 import bokkypoobah from '../assets/avatar/bokkypoobah.png'
 import JasonRudolph from '../assets/avatar/JasonRudolph.jpg'
-import danielbar from '../assets/avatar/danielbar.jpg'
+import daniel from '../assets/avatar/daniel.jpg'
 import jeevasuresh from '../assets/avatar/jeevasuresh.jpg'
 import archiewhitford from '../assets/avatar/archiewhitford.png'
 import sam from '../assets/avatar/Sam.png'
@@ -13,6 +13,7 @@ import ZoraizMahmood from '../assets/avatar/ZoraizMahmood.jpeg'
 import JohnHenderson from '../assets/avatar/JohnHenderson.jpg'
 import MehdiZerouali from '../assets/avatar/MehdiZerouali.jpg'
 import Marta_Adamczyk from '../assets/avatar/Marta_Adamczyk.png'
+import NawazAhmed from '../assets/avatar/NawazAhmed.png'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'Lead Software Engineer at PSE' },
@@ -20,13 +21,14 @@ const list = [
   { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
   { name: 'Mehdi Zerouali', avatar: MehdiZerouali, role: 'Cofounder & Director of Sigma Prime' },
   { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
-  { name: 'Daniel Bar', avatar: danielbar, role: 'Co-founder of Spacecoin' },
+  { name: 'Daniel Exponent', avatar: daniel, role: 'Founder of Spacecoin' },
   { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'Founding Partner of Helix' },
   { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Founder of Salt.' },    
   { name: 'Victor Zhang', avatar: victor, role: 'Co-founder of Smart Token Labs' },
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer at Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
-  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' }
+  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' },
+  { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' }
 ]
 </script>
 
