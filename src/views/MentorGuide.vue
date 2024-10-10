@@ -107,7 +107,7 @@ import NavBar from '../components/NavBar.vue'
               <!-- Tip Cards -->
               <!-- Tip Card Template -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">1</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Know the End Goal</h3>
@@ -118,7 +118,7 @@ import NavBar from '../components/NavBar.vue'
               <!-- Repeat Tip Cards with updated numbers and content -->
               <!-- Tip Card 2 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">2</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Prepare in Advance</h3>
@@ -131,7 +131,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 3 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">3</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Be Present</h3>
@@ -142,7 +142,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 4 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">4</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Don't Hover</h3>
@@ -153,7 +153,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 5 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative md:col-span-2">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">5</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Ask the Right Questions</h3>
@@ -170,7 +170,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 6 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">6</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Don't Push Your Ideas</h3>
@@ -181,7 +181,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 7 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">7</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Avoid Major Changes Midway</h3>
@@ -192,7 +192,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 8 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">8</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Let Them Decide</h3>
@@ -203,7 +203,7 @@ import NavBar from '../components/NavBar.vue'
 
               <!-- Tip Card 9 -->
               <div class="bg-[#222] border-2 border-[#525252] rounded-lg p-6 relative">
-                <div class="absolute -top-5 -left-5 w-12 h-12 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
+                <div class="absolute -top-5 -left-5 w-10 h-10 bg-gradient-to-r from-[#ABF8FF] to-[#CF4DFF] rounded-full flex items-center justify-center">
                   <span class="text-black font-bold text-xl">9</span>
                 </div>
                 <h3 class="text-xl font-bold mb-2">Empower, Don't Discourage</h3>
