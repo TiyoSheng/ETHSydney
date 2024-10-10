@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Mobile from '../views/Mobile.vue'
 import HackerManual from '../views/HackerManual.vue'
 import Code from '../views/Code.vue'
+import MentorGuide from '../views/MentorGuide.vue'
 import '../index.css'
 
 const routes = [{
@@ -21,6 +22,10 @@ const routes = [{
   path: '/code-of-conduct',
   name: 'Code of Conduct',
   component: Code
+}, {
+  path: '/mentor-guide',
+  name: 'Mentor Guide',
+  component: MentorGuide
 }]
 
 // 路由参数配置
