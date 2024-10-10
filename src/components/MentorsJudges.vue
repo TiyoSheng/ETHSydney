@@ -28,7 +28,7 @@ const list = [
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer at Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
   { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' },
-  { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' }
+  { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' },
 ]
 </script>
 
