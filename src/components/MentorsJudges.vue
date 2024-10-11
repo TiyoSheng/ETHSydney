@@ -14,6 +14,8 @@ import JohnHenderson from '../assets/avatar/JohnHenderson.jpg'
 import MehdiZerouali from '../assets/avatar/MehdiZerouali.jpg'
 import Marta_Adamczyk from '../assets/avatar/Marta_Adamczyk.png'
 import NawazAhmed from '../assets/avatar/NawazAhmed.png'
+import Arturo from '../assets/avatar/Arturo.JPG'
+import MarkMonfort from '../assets/avatar/MarkMonfort.JPG'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'Lead Software Engineer at PSE' },
@@ -29,6 +31,8 @@ const list = [
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
   { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' },
   { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' },
+  { name: 'Arturo', avatar: Arturo, role: 'Co-founder of the Australian DeFi Association' },
+  { name: 'Mark Monfort', avatar: MarkMonfort, role: 'Co-founder of the Australian DeFi Association' }
 ]
 </script>
 
