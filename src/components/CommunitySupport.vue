@@ -27,6 +27,9 @@ import { ref } from 'vue'
         <div class="item flex-center-center">
           <a href="https://www.defi.org.au/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/ausdefi.png" alt="AusDefi"></a>
         </div>
+        <div class="item flex-center-center">
+          <a href="https://sydweb3.org/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/sydweb3-black.jpg" alt="SydWeb3"></a>
+        </div>
       </div>
     </div>
   </div>
