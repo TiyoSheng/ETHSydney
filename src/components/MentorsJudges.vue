@@ -16,7 +16,7 @@ import Marta_Adamczyk from '../assets/avatar/Marta_Adamczyk.png'
 import NawazAhmed from '../assets/avatar/NawazAhmed.png'
 import Arturo from '../assets/avatar/Arturo.jpg'
 import MarkMonfort from '../assets/avatar/MarkMonfort.jpg'
-import bobjiang from '../assets/avatar/bobjiang.jpeg'
+import bobjiang from '../assets/avatar/bob123.png'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'Lead Software Engineer at PSE' },
