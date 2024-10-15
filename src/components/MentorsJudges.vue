@@ -17,24 +17,29 @@ import NawazAhmed from '../assets/avatar/NawazAhmed.png'
 import Arturo from '../assets/avatar/Arturo.jpg'
 import MarkMonfort from '../assets/avatar/MarkMonfort.jpg'
 import bobjiang from '../assets/avatar/bob123.png'
+import SushmitaRuj from '../assets/avatar/SushmitaRuj.jpeg'
+import AnnieLiao from '../assets/avatar/AnnieLiao.jpg'
 
 const list = [
   { name: 'Geoff Lamperd', avatar: GeoffLamperd, role: 'Lead Software Engineer at PSE' },
   { name: 'Sam Battenally', avatar: sam, role: 'Co-founder of Rise Chain' },  
+  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' },
   { name: 'Archie Whitford', avatar: archiewhitford, role: 'Investment Associate Hansa Network' },
   { name: 'Mehdi Zerouali', avatar: MehdiZerouali, role: 'Cofounder & Director of Sigma Prime' },
   { name: 'Bokky Poobah', avatar: bokkypoobah, role: 'Bok' },
+  { name: 'Sushmita Ruj', avatar: SushmitaRuj, role: 'Faculty Lead (Engg.), UNSW IfCyber' },
   { name: 'Daniel Exponent', avatar: daniel, role: 'Founder of Spacecoin' },
   { name: 'Jeeva Suresh', avatar: jeevasuresh, role: 'Founding Partner of Helix' },
   { name: 'Jason Rudolph', avatar: JasonRudolph, role: 'Founder of Salt.' },    
   { name: 'Victor Zhang', avatar: victor, role: 'Co-founder of Smart Token Labs' },
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer at Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
-  { name: 'Marta Adamczyk', avatar: Marta_Adamczyk, role: 'Head of BD & DevRel at SubQuery' },
+  { name: 'Annie Liao', avatar: AnnieLiao, role: 'Founder of Builderclub' },
   { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' },
   { name: 'Arturo', avatar: Arturo, role: 'Co-founder of Australian DeFi Association' },
   { name: 'Mark Monfort', avatar: MarkMonfort, role: 'Co-founder of Australian DeFi Association' },
-  { name: 'Bob Jiang', avatar: bobjiang, role: 'Co-organiser of ETHSydney' },
+  { name: 'Bob Jiang', avatar: bobjiang, role: 'Co-organiser of ETHSydney' },  
+  
 ]
 </script>
 
