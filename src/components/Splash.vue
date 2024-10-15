@@ -12,173 +12,30 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="banner section">
-    <div class="banner-content">
-      <div class="column column-text">
-        <h1>Make <span>Ethereum</span> Cypherpunk Again</h1>
-        <p>Date: 25-27 Oct 2024 ｜ Venue: UNSW Founders</p>
-        <!-- Register Button -->
-        <a href="https://lu.ma/q5q134u6" target="_blank" class="register-button">Register Now</a>
+  <div class="bg-black text-white py-44 lg:py-48 px-5">
+    <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center">
+      <div class="lg:max-w-lg mb-10 lg:mb-0 lg:pr-8 text-center lg:text-left">
+        <h1 class="text-[48px] lg:text-[72px] font-bold font-chakra leading-tight lg:leading-[1.2] mb-8 lg:mb-10">
+          Make <span class="bg-gradient-to-b from-[#ABF8FF] to-[#CF4DFF] bg-clip-text text-transparent">Ethereum</span> Cypherpunk Again
+        </h1>
+        <p class="text-[18px] lg:text-[24px] font-chakra mb-6 lg:mb-8 whitespace-nowrap lg:whitespace-normal">
+          Date: 25-27 Oct 2024 ｜ Venue: UNSW Founders
+        </p>
+        <a href="https://lu.ma/q5q134u6" target="_blank" class="inline-block bg-indigo-500 hover:bg-indigo-700 text-white py-4 px-8 rounded-lg text-[20px] font-chakra transition-colors">
+          Register Now
+        </a>
       </div>
-      <div class="column column-image">
-        <img src="../assets/images/mask.jpg" alt="Mask Image representing Ethereum Cypherpunk" />
+      <div class="flex justify-center lg:max-h-[600px]">
+        <img src="../assets/images/mask.jpg" alt="Mask Image representing Ethereum Cypherpunk" class="max-w-full h-auto max-h-[300px] lg:max-h-[600px]" />
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.banner {
-  background-color: #0a0a0a; /* Black background */
-  padding: 180px 20px;
-  color: #fff;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-.banner-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.column {
-  flex: 1;
-}
-
-.column-text {
-  max-width: 650px; /* Increased max-width to give more space */
-  padding-right: 20px;
-}
-
-.column-text h1 {
+.font-chakra {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 72px;
-  font-weight: 700; /* Use 700 for Bold */
-  line-height: 1.2;
-  color: #FFFFFF;
-  margin-bottom: 40px;
-  text-align: left;
-}
-
-.column-text h1 span {
-  background: linear-gradient(180deg, #ABF8FF 0%, #CF4DFF 137%);
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.column-text p {
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 24px; /* Reduced font size */
-  line-height: 1.4;
-  color: #FFFFFF;
-  text-align: left;
-  margin-bottom: 20px;
-  white-space: nowrap; /* Prevent text wrapping */
-}
-
-.register-button {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 15px 30px;
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 20px;
-  color: #FFFFFF;
-  background-color: #5856D6;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.register-button:hover {
-  background-color: #4745b7;
-}
-
-.column-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.column-image img {
-  max-width: 100%;
-  height: auto;
-  max-height: 450px;
-}
-
-@media screen and (min-width: 1400px) {
-  .banner-content {
-    padding-left: 10%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .banner-content {
-    padding-left: 0;
-  }
-  .column-text {
-    max-width: 100%; /* Allow full width on smaller screens */
-  }
-  .column-text h1 {
-    font-size: 64px;
-    margin-bottom: 30px;
-  }
-  .column-text p {
-    font-size: 22px; /* Adjust font size for smaller screens */
-  }
-  .column-image img {
-    max-height: 400px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .column-text h1 {
-    font-size: 56px;
-    margin-bottom: 25px;
-  }
-  .column-text p {
-    font-size: 20px; /* Further reduce font size */
-  }
-  .column-image img {
-    max-height: 350px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner {
-    padding: 80px 15px;
-  }
-  .banner-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .column {
-    width: 100%;
-    padding: 0;
-  }
-  .column-text {
-    max-width: 100%;
-    padding-right: 0;
-  }
-  .column-text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .column-text p {
-    font-size: 18px; /* Adjust font size for mobile */
-    text-align: center;
-    white-space: normal; /* Allow wrapping on mobile */
-  }
-  .register-button {
-    margin-top: 20px;
-  }
-  .column-image {
-    margin-top: 30px;
-  }
-  .column-image img {
-    max-height: 300px;
-  }
 }
 </style>
