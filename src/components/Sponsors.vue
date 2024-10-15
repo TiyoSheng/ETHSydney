@@ -26,7 +26,7 @@ import { ref } from 'vue'
         </div>
       </div>
       <button>
-        <a href="https://www.ethsydney.net/img/ETHSydney-Hackathon-2024.pdf" target="_blank" rel="noopener noreferrer">Sponsor Us</a>
+        <a href="https://www.ethsydney.net/assets/EthSydney_Sponsorship_Deck_2024.pdf" target="_blank" rel="noopener noreferrer">Sponsor Us</a>
       </button>
     </div>
   </div>
