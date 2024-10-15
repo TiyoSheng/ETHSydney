@@ -21,6 +21,8 @@ import Section6 from '../components/Section6.vue'
 import Section7 from '../components/Section7.vue'
 import Footer from '../components/Footer.vue'
 import PastSupporters from '../components/PastSupporters.vue'
+import JoinUs from '../components/JoinUs.vue'
+
 </script>
 <template>
   <div>
@@ -43,6 +45,8 @@ import PastSupporters from '../components/PastSupporters.vue'
 
     <!-- <Section4 id="section4" /> -->
     <MentorsJudges id="mentorsjudges" />
+
+    <JoinUs id="joinus" />
 
     <!-- <Section5 id="section5" /> -->
     <Sponsors id="sponsors" />

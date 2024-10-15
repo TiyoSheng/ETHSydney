@@ -39,7 +39,7 @@ const activeIndex = ref([])
 
 <style lang="scss" scoped>
 .section-content {
-  background-color: #111;
+  background-color: #1a1a1a;
   padding: 80px 20px;
   text-align: center;
   color: #ffffff;

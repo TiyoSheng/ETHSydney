@@ -56,7 +56,7 @@ import { ref } from 'vue'
 
 .section-content {
   // background-image: url('../assets/images/05.png');
-  background-color: #1a1a1a;
+  background-color: #111;
   background-size: cover;
   background-position: center;
   padding: 80px 20px;

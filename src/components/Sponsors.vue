@@ -38,7 +38,7 @@ import { ref } from 'vue'
 
 .section-content {
   // background-image: url('../assets/images/05.png');
-  background-color: #111;
+  background-color: #1a1a1a;
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -113,7 +113,7 @@ import { ref } from 'vue'
 @media screen and (max-width: 768px) {
   .section-content {
     // background-image: url('../assets/images/m_05.png');
-    background-color: #111;
+    background-color: #1a1a1a;
     padding: 60px 15px;
 
     .title-text {
