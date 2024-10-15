@@ -33,7 +33,18 @@ import { ref } from 'vue'
         <div class="item flex-center-center">
           <a href="https://www.helixcollective.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/Helix.png" alt="Helix"></a>
         </div>
-
+        <div class="item flex-center-center">
+          <a href="https://www.haymarkethq.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/hhq.jpeg" alt="hhq"></a>
+        </div>
+        <div class="item flex-center-center">
+          <a href="https://www.gd1.vc/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/gd1.png" alt="GD1"></a>
+        </div>
+        <div class="item flex-center-center">
+          <a href="https://ethmelbourne.co/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/EthereumMelbourne.png" alt="EthereumMelbourne"></a>
+        </div>
+        <div class="item flex-center-center">
+          <a href="https://subquery.network/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/subquery.png" alt="subquery"></a>
+        </div>
       </div>
     </div>
   </div>
