@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="bg-black text-white py-44 lg:py-48 px-5">
+  <div class="bg-black text-white py-32 lg:py-48 px-5">
     <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center">
       <div class="lg:max-w-lg mb-10 lg:mb-0 lg:pr-8 text-center lg:text-left">
         <h1 class="text-[48px] lg:text-[72px] font-bold font-chakra leading-tight lg:leading-[1.2] mb-8 lg:mb-10">
