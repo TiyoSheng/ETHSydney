@@ -34,7 +34,7 @@ const list = [
   { name: 'Victor Zhang', avatar: victor, role: 'Co-founder of Smart Token Labs' },
   { name: 'Zoraiz Mahmood', avatar: ZoraizMahmood, role: 'Senior Blockchain Engineer at Immutable' },
   { name: 'John Henderson', avatar: JohnHenderson, role: 'Partner at Airtree Ventures. Web3 lead' },
-  { name: 'Annie Liao', avatar: AnnieLiao, role: 'Founder of Builder Club' },
+  { name: 'Annie Liao', avatar: AnnieLiao, role: 'Founder of Build Club' },
   { name: 'Nawaz Ahmed', avatar: NawazAhmed, role: 'General Partner at GD1 Crypto' },
   { name: 'Arturo', avatar: Arturo, role: 'Co-founder of Australian DeFi Association' },
   { name: 'Mark Monfort', avatar: MarkMonfort, role: 'Co-founder of Australian DeFi Association' },
