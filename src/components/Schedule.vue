@@ -29,24 +29,36 @@ const tabs = ref([
     title: 'Day 1 - 25 Oct',
     list: [
       {
-        time: '05:00 PM',
+        time: '04:00 PM',
         title: 'Check-In',
       },
       {
-        time: '06:30 PM',
-        title: 'Dinner',
+        time: '06:00 PM',
+        title: 'Theatre (surprise guest)',
+      },
+      {
+        time: '06:15 PM',
+        title: 'Opening induction',
+      },
+      {
+        time: '06:20 PM',
+        title: 'Insights from Sigma Prime on Building and Securing Web3 - Mehdi Zerouali | Sigma Prime',
+      },
+      {
+        time: '06:45 PM',
+        title: '- Sam Battenally | Rise Chain',
+      },
+      {
+        time: '07:10 PM',
+        title: 'Marta Adamczyk | SubQuery',
       },
       {
         time: '07:30 PM',
-        title: 'Opening Talk - TBD',
+        title: 'Team Formation',
       },
       {
         time: '08:00 PM',
-        title: 'Opening Talk 2',
-      },
-      {
-        time: '08:30 PM',
-        title: 'Team Formation',
+        title: 'Team Introduction & Networking',
       },
       {
         time: '09:00 PM',
@@ -59,28 +71,24 @@ const tabs = ref([
     title: 'Day 2 - 26 Oct',
     list: [
       {
-        time: '07:00 AM',
-        title: 'Early Registration & Open',
-      },
-      {
         time: '08:00 AM',
-        title: 'Breakfast & Hacking',
+        title: 'Open and Coffee/Fruit Time',
       },
       {
-        time: '',
-        title: 'Workshop Time Slot',
+        time: '09:00 AM',
+        title: 'Hacking Time',
       },
       {
         time: '10:00 AM',
-        title: 'Early Submission (Check-in 2)',
+        title: 'Team information Submit',
       },
       {
         time: '12:30 PM',
         title: 'Lunch',
       },
       {
-        time: '',
-        title: 'Workshop Time Slot',
+        time: '03:30 PM',
+        title: 'Energy Boost Time',
       },
       {
         time: '06:30 PM',
@@ -97,12 +105,16 @@ const tabs = ref([
     title: 'Day 3 - 27 Oct',
     list: [
       {
-        time: '07:00 AM',
-        title: 'Open',
+        time: '08:00 AM',
+        title: 'Open and Coffee/Fruit Time',
+      },
+      {
+        time: '09:00 AM',
+        title: 'Hacking Time',
       },
       {
         time: '11:30 AM',
-        title: 'Final Submission (Check-in 3)',
+        title: 'Final Submission',
       },
       {
         time: '12:30 PM',
@@ -110,7 +122,7 @@ const tabs = ref([
       },
       {
         time: '02:00 PM',
-        title: 'Demos',
+        title: 'Project Demos',
       },
       {
         time: '04:00 PM',
@@ -121,7 +133,7 @@ const tabs = ref([
         title: 'Final Announcement',
       },
       {
-        time: '07:00 PM',
+        time: '05:00 PM',
         title: 'Close',
       },
     ],
