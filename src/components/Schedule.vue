@@ -46,11 +46,11 @@ const tabs = ref([
       },
       {
         time: '06:45 PM',
-        title: '- Sam Battenally | Rise Chain',
+        title: 'Talk 2 - Sam Battenally | Rise Chain',
       },
       {
         time: '07:10 PM',
-        title: 'Marta Adamczyk | SubQuery',
+        title: 'Talk 3 - Marta Adamczyk | SubQuery',
       },
       {
         time: '07:30 PM',
