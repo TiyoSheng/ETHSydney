@@ -11,6 +11,11 @@ onMounted(() => {
 <template>
   <div class="ft flex-center-center">
     © 2024 ETH Sydney. All Rights <br v-if="isMobile" /> Reserved.
+  </div> | 
+  <div class="ft flex-center-center">
+    <a href="https://2024.ethsydney.net/code-of-conduct" target="_blank">
+      Code of Conduct
+    </a>
   </div>
 </template>
 <style lang="scss" scoped>
