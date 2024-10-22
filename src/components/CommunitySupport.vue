@@ -46,7 +46,7 @@ import { ref } from 'vue'
           <a href="https://subquery.network/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/subquery.png" alt="subquery"></a>
         </div>
         <div class="item flex-center-center">
-          <a href="https://www.techflame.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/TechFlame-logo.png" alt="TechFlame"></a>
+          <a href="https://www.techflame.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/TechFlame.png" alt="TechFlame"></a>
         </div>
       </div>
     </div>
