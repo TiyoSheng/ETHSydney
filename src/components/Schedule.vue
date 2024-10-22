@@ -46,7 +46,7 @@ const tabs = ref([
       },
       {
         time: '06:45 PM',
-        title: 'Talk 2 - Sam Battenally | Rise Chain',
+        title: 'Scaling Ethereum to onboard the next billion users - Sam Battenally | Rise Chain',
       },
       {
         time: '07:10 PM',
