@@ -50,7 +50,7 @@ const tabs = ref([
       },
       {
         time: '07:10 PM',
-        title: 'Talk 3 - Marta Adamczyk | SubQuery',
+        title: 'Web3 infrastructure and tools to supercharge your dApp - Marta Adamczyk | SubQuery',
       },
       {
         time: '07:30 PM',
